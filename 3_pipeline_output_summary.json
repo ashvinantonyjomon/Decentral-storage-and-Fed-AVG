@@ -1,0 +1,2708 @@
+{
+  "features": 31,
+  "train_samples": 439307,
+  "test_samples": 146436,
+  "num_shards": 147,
+  "shards": {
+    "shard_0": {
+      "rows": 3000,
+      "sha256": "e749a7cf18f7c498177d3ae4abd5a6883fb838aca3dcaf3b409befcf88983371",
+      "enc_path": "3_p2p_storage\\shards\\shard_0.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_1": {
+      "rows": 3000,
+      "sha256": "98968e1b0a122883319ef57e99131f6b5d6c339fa9ebe4df6e465a1f4dd1054a",
+      "enc_path": "3_p2p_storage\\shards\\shard_1.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_2": {
+      "rows": 3000,
+      "sha256": "450338bf84d42c7e39b66635a80700de4fa44808ccc95e5069be2428f32c2140",
+      "enc_path": "3_p2p_storage\\shards\\shard_2.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_3": {
+      "rows": 3000,
+      "sha256": "5df685b34a358963e85029c5b32ffec3dd10020fadde8331ca03d2ab241096b8",
+      "enc_path": "3_p2p_storage\\shards\\shard_3.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_4": {
+      "rows": 3000,
+      "sha256": "5f1fb27f7acad23afd7360046f9cfca8fe543a9bcdd0f90941853123a9759e8b",
+      "enc_path": "3_p2p_storage\\shards\\shard_4.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_5": {
+      "rows": 3000,
+      "sha256": "6b4782f44b746a21f6dce507a732d9f37c06ce9851c7156c8ca5fa390e2c18ea",
+      "enc_path": "3_p2p_storage\\shards\\shard_5.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_6": {
+      "rows": 3000,
+      "sha256": "ae2d558b7b50eea0f676029f1dc75f2847841328c3ab901c1a0af51e9dad02d1",
+      "enc_path": "3_p2p_storage\\shards\\shard_6.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_7": {
+      "rows": 3000,
+      "sha256": "6a903344684f36e2696f3bf35b285a57e9abb5c19711c622466849f0ffc415e7",
+      "enc_path": "3_p2p_storage\\shards\\shard_7.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_8": {
+      "rows": 3000,
+      "sha256": "5f1c2bb597c78c74f03d0de3cb62c701fb822daeddf17cdf09aa389e6f18e57f",
+      "enc_path": "3_p2p_storage\\shards\\shard_8.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_9": {
+      "rows": 3000,
+      "sha256": "cace6972ab9af967f7588846563df95b8a9acd93ecb7de98f7d79e4e9a98c96e",
+      "enc_path": "3_p2p_storage\\shards\\shard_9.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_10": {
+      "rows": 3000,
+      "sha256": "81233e8cca43b66d00cf272621795f61dda4add0af15514dd5d80ba57da74088",
+      "enc_path": "3_p2p_storage\\shards\\shard_10.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_11": {
+      "rows": 3000,
+      "sha256": "9782452f4039435f4077fa9208c7f1eba9375bd28256eebe82db1f949deb522a",
+      "enc_path": "3_p2p_storage\\shards\\shard_11.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_12": {
+      "rows": 3000,
+      "sha256": "46f60757d357dd2866e5dc0e0d2835e7502f83e057b29f35c31e4c0a349ee137",
+      "enc_path": "3_p2p_storage\\shards\\shard_12.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_13": {
+      "rows": 3000,
+      "sha256": "37bb7e50e974d04adaef7d1840d86c1fe1539015628c5248161479a5cda01465",
+      "enc_path": "3_p2p_storage\\shards\\shard_13.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_14": {
+      "rows": 3000,
+      "sha256": "226c3ea7b20ebb8f2382e67f9970a92086207a8395c5866f6ce78fac6ca59ab4",
+      "enc_path": "3_p2p_storage\\shards\\shard_14.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_15": {
+      "rows": 3000,
+      "sha256": "65a44ae220f9b657ab55f2022816b1437b71d44947395fa8059dce1906c2ef76",
+      "enc_path": "3_p2p_storage\\shards\\shard_15.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_16": {
+      "rows": 3000,
+      "sha256": "1a932c4aba2a68dc259e5b4760e3d6d5dbe466da1071bcc835eb354803ffbe42",
+      "enc_path": "3_p2p_storage\\shards\\shard_16.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_17": {
+      "rows": 3000,
+      "sha256": "e3be8356fa3e3a13d659b57c30f12d16547c643dda296509ae88ba729ef8cb6a",
+      "enc_path": "3_p2p_storage\\shards\\shard_17.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_18": {
+      "rows": 3000,
+      "sha256": "2174b88b016758d0ab1a1d1c4994f9ab03fd7e1c317eeb61c6b7c35398fa2c67",
+      "enc_path": "3_p2p_storage\\shards\\shard_18.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_19": {
+      "rows": 3000,
+      "sha256": "d16370fe15fbf1db238ff867f7d3518d744e0f9f9463afefea9931d44e6ba8ca",
+      "enc_path": "3_p2p_storage\\shards\\shard_19.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_20": {
+      "rows": 3000,
+      "sha256": "254e81bf7eb9886f1d534d5622ecea765ba68a58e01243e72ade7280d4184bf3",
+      "enc_path": "3_p2p_storage\\shards\\shard_20.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_21": {
+      "rows": 3000,
+      "sha256": "79e8e050c5d4ce9f40cc275fe0c61a4056899ec2546ba99e0df3ed004f70639d",
+      "enc_path": "3_p2p_storage\\shards\\shard_21.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_22": {
+      "rows": 3000,
+      "sha256": "2998c255d462e5b15d69194b11d94609ee10075fde1ae14ded36b3f9d0291f8a",
+      "enc_path": "3_p2p_storage\\shards\\shard_22.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_23": {
+      "rows": 3000,
+      "sha256": "7055f908dd65d09bdd7460b297f1589bf4cce94900fdcbcf3991e3d40f6ef169",
+      "enc_path": "3_p2p_storage\\shards\\shard_23.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_24": {
+      "rows": 3000,
+      "sha256": "7ae770b6d7a58df1894c2eb95ade69ca7c02418ecab3ff5f2a01a5117723cb83",
+      "enc_path": "3_p2p_storage\\shards\\shard_24.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_25": {
+      "rows": 3000,
+      "sha256": "3d04a7dd43249728335e5c8fb8fc4e6e13ea4113e427dcc38eea01e43fd9fab0",
+      "enc_path": "3_p2p_storage\\shards\\shard_25.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_26": {
+      "rows": 3000,
+      "sha256": "d5893b1714bac355a0c04455a6a5e4ebfa7c12da233c2a945e5072d750749c29",
+      "enc_path": "3_p2p_storage\\shards\\shard_26.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_27": {
+      "rows": 3000,
+      "sha256": "d843ee4a7146a5e5d155a95d6f30dfde24c56c70471b8975d3c64705cccac2ee",
+      "enc_path": "3_p2p_storage\\shards\\shard_27.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_28": {
+      "rows": 3000,
+      "sha256": "973f484cf171d3182da828912b4cc1fcf13f5d59372edb3e8e6202c2897fa193",
+      "enc_path": "3_p2p_storage\\shards\\shard_28.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_29": {
+      "rows": 3000,
+      "sha256": "631f8a505e94ed512b0b0f6e6a81197b9e17847eeca2fcc20de7dba67753cde8",
+      "enc_path": "3_p2p_storage\\shards\\shard_29.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_30": {
+      "rows": 3000,
+      "sha256": "59f3394e3c99cb6b4c3b8f95bfd0665b1a9f5e36411517efa949bb389aed9183",
+      "enc_path": "3_p2p_storage\\shards\\shard_30.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_31": {
+      "rows": 3000,
+      "sha256": "24ba3edfb3b02e4ca62739718fb69b6e1887a20ed433da3070b06b993a5f7500",
+      "enc_path": "3_p2p_storage\\shards\\shard_31.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_32": {
+      "rows": 3000,
+      "sha256": "27764fd07c3b402dcff083812949f539a286aedb51084c81e7079a1ab32e361f",
+      "enc_path": "3_p2p_storage\\shards\\shard_32.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_33": {
+      "rows": 3000,
+      "sha256": "fa5745d414264eab36a7b685546a8eafe15e6676faba7740a978c753fffbd5b5",
+      "enc_path": "3_p2p_storage\\shards\\shard_33.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_34": {
+      "rows": 3000,
+      "sha256": "1e54ec47b7ed1a731ad287ee33f2234291a1f38cea594aa7ea25f3491104381d",
+      "enc_path": "3_p2p_storage\\shards\\shard_34.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_35": {
+      "rows": 3000,
+      "sha256": "5f1bb3e01303cf2c1e778b3823bb767cda315ac1769fe141e00d516d791fa4b4",
+      "enc_path": "3_p2p_storage\\shards\\shard_35.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_36": {
+      "rows": 3000,
+      "sha256": "8d4a400813f8d9835eaf3d54486ae9468719e224389c7856d4fcff90bddb802c",
+      "enc_path": "3_p2p_storage\\shards\\shard_36.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_37": {
+      "rows": 3000,
+      "sha256": "f189a4001474fd8ef843b25d6b983ae4080e1ddd3ac4ca67ec0feb8c92ef85cb",
+      "enc_path": "3_p2p_storage\\shards\\shard_37.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_38": {
+      "rows": 3000,
+      "sha256": "728ee4535bed76e6d5e799f6c9578bd759f8bbcc2f3dac8414c283105235f95e",
+      "enc_path": "3_p2p_storage\\shards\\shard_38.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_39": {
+      "rows": 3000,
+      "sha256": "b855a8edb4a03e3550ea1c87b8f68fad24d06169ae061e0873bc1801e99e09c8",
+      "enc_path": "3_p2p_storage\\shards\\shard_39.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_40": {
+      "rows": 3000,
+      "sha256": "4240b19570fd059b642e642d1b6bb9973161dc1d1345691d1e34a853d145a845",
+      "enc_path": "3_p2p_storage\\shards\\shard_40.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_41": {
+      "rows": 3000,
+      "sha256": "13ceebaf7065fc501bae43807f31566c6bcc753420818432a7c7dbb40193c1e1",
+      "enc_path": "3_p2p_storage\\shards\\shard_41.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_42": {
+      "rows": 3000,
+      "sha256": "a15eca85b37941e32dc08dd359f7d15153efa3e6dd8a7b7c744860ccbb2cbde8",
+      "enc_path": "3_p2p_storage\\shards\\shard_42.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_43": {
+      "rows": 3000,
+      "sha256": "9b0da370e03f2fbea25d8b596bd428915780b30bcb06f4fc200a8d1ab5f7534d",
+      "enc_path": "3_p2p_storage\\shards\\shard_43.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_44": {
+      "rows": 3000,
+      "sha256": "6b3ba4f4f598c1df9992d9b39c4e0224509bab4cd13fcd25dd6f02e74f15aad6",
+      "enc_path": "3_p2p_storage\\shards\\shard_44.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_45": {
+      "rows": 3000,
+      "sha256": "f2b69a2c29249ee7ad3f11ee2075d6650bbe61f55f634755da18d8a989275b0a",
+      "enc_path": "3_p2p_storage\\shards\\shard_45.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_46": {
+      "rows": 3000,
+      "sha256": "289e53bd0a618b0f09b9422cb01a706eba1dbb7d043c485ab1bc1c1ea1e9a601",
+      "enc_path": "3_p2p_storage\\shards\\shard_46.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_47": {
+      "rows": 3000,
+      "sha256": "23c16de30fe6f37519de9d62cc30c21c7f97ac9337804f6068c5e69ab00b08d5",
+      "enc_path": "3_p2p_storage\\shards\\shard_47.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_48": {
+      "rows": 3000,
+      "sha256": "b54c7d076b7e698d7d4c19389e482460e385a553771c11f4459111530b7ef3c0",
+      "enc_path": "3_p2p_storage\\shards\\shard_48.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_49": {
+      "rows": 3000,
+      "sha256": "97bd9bbf894b070d253dd9137828530666642388fe9944645bf0a1ffd832c96b",
+      "enc_path": "3_p2p_storage\\shards\\shard_49.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_50": {
+      "rows": 3000,
+      "sha256": "7ef5ab50caeebec38ac19baa11bba9146ec607aabe322f0f9d85c02f35ec811c",
+      "enc_path": "3_p2p_storage\\shards\\shard_50.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_51": {
+      "rows": 3000,
+      "sha256": "90ce9aa95598af297bbcb7f08b72712bac3086b3bd133a3fc719429f1e406080",
+      "enc_path": "3_p2p_storage\\shards\\shard_51.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_52": {
+      "rows": 3000,
+      "sha256": "887d2e0a89e0454322152554d60b7da40912a1e96b27ac49e6d3817d4df19b49",
+      "enc_path": "3_p2p_storage\\shards\\shard_52.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_53": {
+      "rows": 3000,
+      "sha256": "9df656235e96d55ec68e94f61ce785d23a74c57507d1301b9486a3abb1f5f8c8",
+      "enc_path": "3_p2p_storage\\shards\\shard_53.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_54": {
+      "rows": 3000,
+      "sha256": "1ef0fc300f0eda0024a7786ca4f77af2c4f65bf6be0e069cc1410605a31c2ca7",
+      "enc_path": "3_p2p_storage\\shards\\shard_54.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_55": {
+      "rows": 3000,
+      "sha256": "458b97ef527ccefcfb1bee43259c83d62b66aa448e82449d7c361fcf9d5abb80",
+      "enc_path": "3_p2p_storage\\shards\\shard_55.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_56": {
+      "rows": 3000,
+      "sha256": "60a628a73e7306aab30f354aa8d6f02e1015ffbd30c3af311331aa4e85acb0ad",
+      "enc_path": "3_p2p_storage\\shards\\shard_56.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_57": {
+      "rows": 3000,
+      "sha256": "7190afe05aba4489be02868e5047c0432b748c8a521fb683a717eb49d0e272d4",
+      "enc_path": "3_p2p_storage\\shards\\shard_57.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_58": {
+      "rows": 3000,
+      "sha256": "baf7d9f666ce85635e8191c1e22133b48cf2b15d1e09defc549379fba1b9d610",
+      "enc_path": "3_p2p_storage\\shards\\shard_58.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_59": {
+      "rows": 3000,
+      "sha256": "8d7f7fa6b09488fe060829624a7f5495b11eec12d805ea10f7eab039d8bc10da",
+      "enc_path": "3_p2p_storage\\shards\\shard_59.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_60": {
+      "rows": 3000,
+      "sha256": "d3a63cb546ac5be6a86c6dc6f6a2c663e0f138b3722f9158f8847919f4db2148",
+      "enc_path": "3_p2p_storage\\shards\\shard_60.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_61": {
+      "rows": 3000,
+      "sha256": "8da3a44fa1821fff03c286db8c67c9e8156cd82d20de2c424005f1db7755f484",
+      "enc_path": "3_p2p_storage\\shards\\shard_61.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_62": {
+      "rows": 3000,
+      "sha256": "34b7223de41974fff5671f93373f52b32a9553d041bff504970ce8b34c01701a",
+      "enc_path": "3_p2p_storage\\shards\\shard_62.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_63": {
+      "rows": 3000,
+      "sha256": "dc8a8eaf675db8d0b0c00edd2604fbd26b874b38cf033471bae8cd9701300781",
+      "enc_path": "3_p2p_storage\\shards\\shard_63.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_64": {
+      "rows": 3000,
+      "sha256": "549c3e3561fd4c327666fd727bed243a4e7605e9784358b51a32d7bd96294147",
+      "enc_path": "3_p2p_storage\\shards\\shard_64.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_65": {
+      "rows": 3000,
+      "sha256": "9c111487831cbbf29c66a1210786e8d596bc4873ad034d50a2a104243e58aede",
+      "enc_path": "3_p2p_storage\\shards\\shard_65.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_66": {
+      "rows": 3000,
+      "sha256": "e077aa33683df6580ad4bd34738869ea0a5643585a767e8409daf1710e33b845",
+      "enc_path": "3_p2p_storage\\shards\\shard_66.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_67": {
+      "rows": 3000,
+      "sha256": "61ea5d4f2228d937ee31cb70831ee89bcc4d0d0ca223b986fe38ac117837f2f6",
+      "enc_path": "3_p2p_storage\\shards\\shard_67.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_68": {
+      "rows": 3000,
+      "sha256": "a142e573fa3963eb4aecc3f594496ac9c99cfbfb484f2b82ef3625441f597e95",
+      "enc_path": "3_p2p_storage\\shards\\shard_68.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_69": {
+      "rows": 3000,
+      "sha256": "7dad2f76b56450b70dd09913865df7845287d5a370b23ce1799eb30c84424ef4",
+      "enc_path": "3_p2p_storage\\shards\\shard_69.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_70": {
+      "rows": 3000,
+      "sha256": "6c4f17770fee9cacb29fc7e08013f55a0413a0d78f2c4a1e2b73d4c9061e1f80",
+      "enc_path": "3_p2p_storage\\shards\\shard_70.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_71": {
+      "rows": 3000,
+      "sha256": "f5ce4a0766ff56667c6079fee3a1e30836aa59395f23ebd4687e5dc357a61bda",
+      "enc_path": "3_p2p_storage\\shards\\shard_71.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_72": {
+      "rows": 3000,
+      "sha256": "bca08b66c32ff3c71a9d4184329d25f636f199ba722f491ca116cd515cef74ea",
+      "enc_path": "3_p2p_storage\\shards\\shard_72.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_73": {
+      "rows": 3000,
+      "sha256": "1a48ae21f8d8a550e0d45109405f63b46534ce0f1af2c893838e533755a8703c",
+      "enc_path": "3_p2p_storage\\shards\\shard_73.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_74": {
+      "rows": 3000,
+      "sha256": "7aa9072c14483c57035c621b0f2399fa12b3597d81693c6c7f73648515bd3426",
+      "enc_path": "3_p2p_storage\\shards\\shard_74.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_75": {
+      "rows": 3000,
+      "sha256": "e978a8d355694d7fefcac8aa764378fb7a5fb50cde058c4575d1a045c2e16420",
+      "enc_path": "3_p2p_storage\\shards\\shard_75.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_76": {
+      "rows": 3000,
+      "sha256": "784a9c6696acf86ac1edd00996ab70f49b73d976fd6f967b8fb20e125dc5b65a",
+      "enc_path": "3_p2p_storage\\shards\\shard_76.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_77": {
+      "rows": 3000,
+      "sha256": "5355ac02abbf6ccd7e9388ba53eb4273cd4bde520075a0653a79332ae15a3179",
+      "enc_path": "3_p2p_storage\\shards\\shard_77.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_78": {
+      "rows": 3000,
+      "sha256": "49f838587410ca553f4c61929065104905f5e54599eb9839e2200dcbfa3eb488",
+      "enc_path": "3_p2p_storage\\shards\\shard_78.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_79": {
+      "rows": 3000,
+      "sha256": "2baa8bf7a91a43be7c061ff0207a8949a51b1245b43ff72e801322cd833e2e39",
+      "enc_path": "3_p2p_storage\\shards\\shard_79.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_80": {
+      "rows": 3000,
+      "sha256": "dacc5b93f809cd5255ea26382c8d4131cbb3d2870325be293b3bd09f1039118c",
+      "enc_path": "3_p2p_storage\\shards\\shard_80.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_81": {
+      "rows": 3000,
+      "sha256": "9f6a0c33618c06468a1fb73fd5553abf57c897200e5c7fa479b2800fb524b876",
+      "enc_path": "3_p2p_storage\\shards\\shard_81.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_82": {
+      "rows": 3000,
+      "sha256": "76836e8aed28ccb572cab5e3ca0f456fb3cde5e45e7fc7a4ca4ad5b76ca01377",
+      "enc_path": "3_p2p_storage\\shards\\shard_82.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_83": {
+      "rows": 3000,
+      "sha256": "6a28e6e9a924c7cbf4791213cb063b8dc397ca5458f4b14fc8c8916866d22bf9",
+      "enc_path": "3_p2p_storage\\shards\\shard_83.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_84": {
+      "rows": 3000,
+      "sha256": "82096f30d5c528459c164efc25a5646e8d5e1d10824c994048a6f43fef733d3e",
+      "enc_path": "3_p2p_storage\\shards\\shard_84.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_85": {
+      "rows": 3000,
+      "sha256": "39c6a44b8401e2387d500e0e94ff7159429c4633fda5fde1b6d3f2196eb295ea",
+      "enc_path": "3_p2p_storage\\shards\\shard_85.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_86": {
+      "rows": 3000,
+      "sha256": "f5ce919b10a8d62cc79366226a8fa9a5d64a5814e4fe89e55ee5761ccb294ffc",
+      "enc_path": "3_p2p_storage\\shards\\shard_86.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_87": {
+      "rows": 3000,
+      "sha256": "aaff115c07e1b0949e153268738b58711686c8b2b41d4fdbea238ca1331a4805",
+      "enc_path": "3_p2p_storage\\shards\\shard_87.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_88": {
+      "rows": 3000,
+      "sha256": "26f87c1e392adfb1b90979fec6b338035e58aa050cc1c7c04c842aaa285e1782",
+      "enc_path": "3_p2p_storage\\shards\\shard_88.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_89": {
+      "rows": 3000,
+      "sha256": "5168ba4a0740dccb84be8b44eba4a1b7461c9da25f26053e51b089fe1b510853",
+      "enc_path": "3_p2p_storage\\shards\\shard_89.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_90": {
+      "rows": 3000,
+      "sha256": "2eb5fdf2806a445f9b7db76846616e2c6c07e4cdaee7a6f6e960ea51e2cf45a7",
+      "enc_path": "3_p2p_storage\\shards\\shard_90.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_91": {
+      "rows": 3000,
+      "sha256": "9867d6b66d17faf0701b0d73052b9e584eacf88a272f65862f1f0d907eccfda3",
+      "enc_path": "3_p2p_storage\\shards\\shard_91.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_92": {
+      "rows": 3000,
+      "sha256": "a318e4d5b1ea853d729444c111c8c8f7d95c5b4d422e8921a33d761bf1a7a3fb",
+      "enc_path": "3_p2p_storage\\shards\\shard_92.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_93": {
+      "rows": 3000,
+      "sha256": "fba796f6228063b613c34ea7dcc1cc2ed24c816e4c8f2915872839c37f72af49",
+      "enc_path": "3_p2p_storage\\shards\\shard_93.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_94": {
+      "rows": 3000,
+      "sha256": "46a24334f3c5f7fa6467e0baa8ea9f22623f0d9240caf3adbf3286b1020abb09",
+      "enc_path": "3_p2p_storage\\shards\\shard_94.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_95": {
+      "rows": 3000,
+      "sha256": "fdab545711bcd2ff322ad49fa7ae5c342fb475826710e940d76f893936816fd2",
+      "enc_path": "3_p2p_storage\\shards\\shard_95.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_96": {
+      "rows": 3000,
+      "sha256": "78ea0e9cd12213768dd5c3b5b4a8a4b27e2ae8e09594c8494a0fa9a854b214c3",
+      "enc_path": "3_p2p_storage\\shards\\shard_96.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_97": {
+      "rows": 3000,
+      "sha256": "c7f7f56572f557b547b61b6838ef8870105dfcf5ef9235a4a23e44dafe10e86f",
+      "enc_path": "3_p2p_storage\\shards\\shard_97.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_98": {
+      "rows": 3000,
+      "sha256": "9c9b97d2a4376bec64829d9dcd4e9452b2356aef38ab7c14c950fd0b21f1a4a5",
+      "enc_path": "3_p2p_storage\\shards\\shard_98.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_99": {
+      "rows": 3000,
+      "sha256": "827bd0f71ee380031ba4fdfc94118e4cc0790d16ef68432ed91eabde333228a8",
+      "enc_path": "3_p2p_storage\\shards\\shard_99.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_100": {
+      "rows": 3000,
+      "sha256": "688fb64e59d44cb273b2d1f43f0529c5314f3408ee45ab9aa18e842a07873855",
+      "enc_path": "3_p2p_storage\\shards\\shard_100.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_101": {
+      "rows": 3000,
+      "sha256": "a25641a038bc32cdc23a8d457265196e8c73f7e1ad2b0f7d373f2e44a091d3bc",
+      "enc_path": "3_p2p_storage\\shards\\shard_101.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_102": {
+      "rows": 3000,
+      "sha256": "071a54609177f8232ddc2f4dd580df1f434cc1b83aba18e7532b7920a356b1c3",
+      "enc_path": "3_p2p_storage\\shards\\shard_102.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_103": {
+      "rows": 3000,
+      "sha256": "f99370ac4ca4c13a700c9443f14f0cd0a545334cd08886197f6d0d2c03880f86",
+      "enc_path": "3_p2p_storage\\shards\\shard_103.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_104": {
+      "rows": 3000,
+      "sha256": "17e21097a2e436119fcb3fee0e267a1cf0ca69356f4fb5a06200011c74c5c956",
+      "enc_path": "3_p2p_storage\\shards\\shard_104.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_105": {
+      "rows": 3000,
+      "sha256": "93cdcc2db77bc4997e8d82a7063a973481b26f1364966b4dd18c2c13b793b98f",
+      "enc_path": "3_p2p_storage\\shards\\shard_105.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_106": {
+      "rows": 3000,
+      "sha256": "7f616d333a648f34060f5b4b58905de0fa0279582c80af0b74de7be56696b138",
+      "enc_path": "3_p2p_storage\\shards\\shard_106.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_107": {
+      "rows": 3000,
+      "sha256": "93df713e59de4c10bb3fdc3845edd0eda569b77003f88932ed924de83dd49205",
+      "enc_path": "3_p2p_storage\\shards\\shard_107.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_108": {
+      "rows": 3000,
+      "sha256": "85a04cf8a7817c5ca38a8bf1cc8f434b01008abe59e927ca0b0d983bc3012316",
+      "enc_path": "3_p2p_storage\\shards\\shard_108.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_109": {
+      "rows": 3000,
+      "sha256": "327d0ae7f04928411961f70b55ff3481f29dadf4756e02acf52ddc62435b7335",
+      "enc_path": "3_p2p_storage\\shards\\shard_109.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_110": {
+      "rows": 3000,
+      "sha256": "924d03906b5e698ab1d472dded088391daba98b8afc7282f50f6eaaaed1216ff",
+      "enc_path": "3_p2p_storage\\shards\\shard_110.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_111": {
+      "rows": 3000,
+      "sha256": "639bdf7d9fcd57660e54e8664ae7c28d3a3229492792a58f803adc9cae970c94",
+      "enc_path": "3_p2p_storage\\shards\\shard_111.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_112": {
+      "rows": 3000,
+      "sha256": "46755a2fb3ff508ed088e10c75d5e89072d67d79196defc2ecc9a0e894502236",
+      "enc_path": "3_p2p_storage\\shards\\shard_112.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_113": {
+      "rows": 3000,
+      "sha256": "c7f28071f01bb36f27c0864803032242703d44f6fc4ed0c9cf61910665218967",
+      "enc_path": "3_p2p_storage\\shards\\shard_113.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_114": {
+      "rows": 3000,
+      "sha256": "ca63e53a3fff79e2a7da43db63310545734c93d3572c067f231f2adb90b7a32e",
+      "enc_path": "3_p2p_storage\\shards\\shard_114.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_115": {
+      "rows": 3000,
+      "sha256": "6a3fff3cbb06def15cf723b9c92c8240fd5c534124bd09124337d758d5324ce6",
+      "enc_path": "3_p2p_storage\\shards\\shard_115.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_116": {
+      "rows": 3000,
+      "sha256": "9be2524b9cd38765d3e6cfd33127d7ec00940b87d4b5b52e59e5bb2f2eaeae0d",
+      "enc_path": "3_p2p_storage\\shards\\shard_116.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_117": {
+      "rows": 3000,
+      "sha256": "72b24d7fb69c79e7704191504978ddea0ea6bbec63c64d96afbd215a96a135b1",
+      "enc_path": "3_p2p_storage\\shards\\shard_117.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_118": {
+      "rows": 3000,
+      "sha256": "ac42d7740e991200c933a1f2e0f01558de3163087a539a990f9dbf8af11713cd",
+      "enc_path": "3_p2p_storage\\shards\\shard_118.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_119": {
+      "rows": 3000,
+      "sha256": "79aed5974a864af457f5187528ae4f0032b6cf061aeaadc45d7bdc8b1a4fda54",
+      "enc_path": "3_p2p_storage\\shards\\shard_119.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_120": {
+      "rows": 3000,
+      "sha256": "2daeb8e33c4a9a0ddf96a7c93fc82c0a45ed21ef441ae2f8c0a6a4b3060ac570",
+      "enc_path": "3_p2p_storage\\shards\\shard_120.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_121": {
+      "rows": 3000,
+      "sha256": "1e1f3d60b187250858fb3c2b851099865645cf5626dcab8ecc3c7825a8fa8987",
+      "enc_path": "3_p2p_storage\\shards\\shard_121.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_122": {
+      "rows": 3000,
+      "sha256": "fdf3d673e068c7baa4771741ad0aeca7961b48e64d77bee950d0ed446de9e5d8",
+      "enc_path": "3_p2p_storage\\shards\\shard_122.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_123": {
+      "rows": 3000,
+      "sha256": "046d74f99501d64e6e20481b9870c1db8014a5e363f61cad57a8caad81bc3632",
+      "enc_path": "3_p2p_storage\\shards\\shard_123.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_124": {
+      "rows": 3000,
+      "sha256": "86f2631efd60777e6671070d4fdcd1ea1a405355d4a17c8b3395c4c8a74d6b37",
+      "enc_path": "3_p2p_storage\\shards\\shard_124.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_125": {
+      "rows": 3000,
+      "sha256": "9c66e6fc66f30364b13c236ff441717190901e90b4820392a752ab503f129748",
+      "enc_path": "3_p2p_storage\\shards\\shard_125.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_126": {
+      "rows": 3000,
+      "sha256": "04db425056868cacd68daba8d5b77ba8e6af31fa92904ac9f05db85a8de46089",
+      "enc_path": "3_p2p_storage\\shards\\shard_126.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_127": {
+      "rows": 3000,
+      "sha256": "44bec1e1ba230c0d742fe3bdda10365c05159a364e2445ae1e3f232aa2a872b5",
+      "enc_path": "3_p2p_storage\\shards\\shard_127.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_128": {
+      "rows": 3000,
+      "sha256": "b4a21b5a300b490209391861505ce2ebff542f6e7cc39f31cbe20cba90aaa603",
+      "enc_path": "3_p2p_storage\\shards\\shard_128.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_129": {
+      "rows": 3000,
+      "sha256": "b9f6bc5cdf30fa7b46721921712978f40a1d81415820374f8e78473fa5dd7d09",
+      "enc_path": "3_p2p_storage\\shards\\shard_129.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_130": {
+      "rows": 3000,
+      "sha256": "3ea10a3582e804f5a4ae1d0e3fc406834800e7544910f41630167b2fe4f243bb",
+      "enc_path": "3_p2p_storage\\shards\\shard_130.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_131": {
+      "rows": 3000,
+      "sha256": "67593c0da63161380376ba3ccabb42a3bf9efd51f2f0953eb786b1eed0fbaa1e",
+      "enc_path": "3_p2p_storage\\shards\\shard_131.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_132": {
+      "rows": 3000,
+      "sha256": "af8474e81e143cb214198dafabce975b6277f36aea4269da961da64ec84817f2",
+      "enc_path": "3_p2p_storage\\shards\\shard_132.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_133": {
+      "rows": 3000,
+      "sha256": "97683da032bec325f7983fea7b8592059c0da811ddcc5b7cecabd99e83bdb468",
+      "enc_path": "3_p2p_storage\\shards\\shard_133.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_134": {
+      "rows": 3000,
+      "sha256": "fa9caff11ec3afa459f187f5d1f3b67111ad0861e1d0dac6e02f700b5e878e1a",
+      "enc_path": "3_p2p_storage\\shards\\shard_134.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_135": {
+      "rows": 3000,
+      "sha256": "5e054b82c80778a9f3811e08a0ca7a8573ce82a358463a97a3845d7d3d0ec59a",
+      "enc_path": "3_p2p_storage\\shards\\shard_135.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_136": {
+      "rows": 3000,
+      "sha256": "314835c605f37321b9a4f9bddd0b5957c0ed596a72d663a74dc2bac7e3097795",
+      "enc_path": "3_p2p_storage\\shards\\shard_136.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_137": {
+      "rows": 3000,
+      "sha256": "2eefea136e09adb4d7ca3cf305e9bb5a3839e3165b59c671063444a767f71bc4",
+      "enc_path": "3_p2p_storage\\shards\\shard_137.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_138": {
+      "rows": 3000,
+      "sha256": "0a06ecb256d226154b407f61f4b2d9593a0c301551d2a25b3bc35f6446031731",
+      "enc_path": "3_p2p_storage\\shards\\shard_138.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_139": {
+      "rows": 3000,
+      "sha256": "1f3c50d91570834c516050c7b24ea30641faea139e866300d0aa971481f0dc84",
+      "enc_path": "3_p2p_storage\\shards\\shard_139.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_140": {
+      "rows": 3000,
+      "sha256": "d47aa79fe0a6401df17fccea35a3386103eb092cd82ce81991313c117887258c",
+      "enc_path": "3_p2p_storage\\shards\\shard_140.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_141": {
+      "rows": 3000,
+      "sha256": "fc5e69dbd97cb8449dd8fd3998879a7ca5a51d34b6250816930b4e61b6bbfd2a",
+      "enc_path": "3_p2p_storage\\shards\\shard_141.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_142": {
+      "rows": 3000,
+      "sha256": "68d3f60e7ce7af65298a553a27cb301f78f038ead53bdb3b07f75b66cff46ad2",
+      "enc_path": "3_p2p_storage\\shards\\shard_142.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_143": {
+      "rows": 3000,
+      "sha256": "e6b0ce5663755aa9c45984376f5bad727382333af290621a0491365ece8f3523",
+      "enc_path": "3_p2p_storage\\shards\\shard_143.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_144": {
+      "rows": 3000,
+      "sha256": "01ec3240686355039e7f9da861cf3c7fa25d0d02baa6068330b608464e6cf662",
+      "enc_path": "3_p2p_storage\\shards\\shard_144.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_145": {
+      "rows": 3000,
+      "sha256": "32c3915a605462c104a230b488a8210cf2ed6609d9e8b9465a10839e8cfdfd5b",
+      "enc_path": "3_p2p_storage\\shards\\shard_145.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    },
+    "shard_146": {
+      "rows": 1307,
+      "sha256": "378630596080c6b7744f069defd22a472ccc208c4875bd0e47a3ee1d29a9cda9",
+      "enc_path": "3_p2p_storage\\shards\\shard_146.enc",
+      "nodes": [
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5"
+      ]
+    }
+  },
+  "merkle_root": "b5fe0a60d00a9cc89dd1fcf6fd988be7e173bfddb9ad53bfbb212def3c026a3a",
+  "ledger_entry": {
+    "ts": 1761272736.167893,
+    "utc": "2025-10-24T02:25:36.167893",
+    "manifest": {
+      "created": "2025-10-24T02:25:31.640812",
+      "shards": [
+        {
+          "shard_id": "shard_0",
+          "sha256": "e749a7cf18f7c498177d3ae4abd5a6883fb838aca3dcaf3b409befcf88983371",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_0.enc"
+        },
+        {
+          "shard_id": "shard_1",
+          "sha256": "98968e1b0a122883319ef57e99131f6b5d6c339fa9ebe4df6e465a1f4dd1054a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_1.enc"
+        },
+        {
+          "shard_id": "shard_2",
+          "sha256": "450338bf84d42c7e39b66635a80700de4fa44808ccc95e5069be2428f32c2140",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_2.enc"
+        },
+        {
+          "shard_id": "shard_3",
+          "sha256": "5df685b34a358963e85029c5b32ffec3dd10020fadde8331ca03d2ab241096b8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_3.enc"
+        },
+        {
+          "shard_id": "shard_4",
+          "sha256": "5f1fb27f7acad23afd7360046f9cfca8fe543a9bcdd0f90941853123a9759e8b",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_4.enc"
+        },
+        {
+          "shard_id": "shard_5",
+          "sha256": "6b4782f44b746a21f6dce507a732d9f37c06ce9851c7156c8ca5fa390e2c18ea",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_5.enc"
+        },
+        {
+          "shard_id": "shard_6",
+          "sha256": "ae2d558b7b50eea0f676029f1dc75f2847841328c3ab901c1a0af51e9dad02d1",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_6.enc"
+        },
+        {
+          "shard_id": "shard_7",
+          "sha256": "6a903344684f36e2696f3bf35b285a57e9abb5c19711c622466849f0ffc415e7",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_7.enc"
+        },
+        {
+          "shard_id": "shard_8",
+          "sha256": "5f1c2bb597c78c74f03d0de3cb62c701fb822daeddf17cdf09aa389e6f18e57f",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_8.enc"
+        },
+        {
+          "shard_id": "shard_9",
+          "sha256": "cace6972ab9af967f7588846563df95b8a9acd93ecb7de98f7d79e4e9a98c96e",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_9.enc"
+        },
+        {
+          "shard_id": "shard_10",
+          "sha256": "81233e8cca43b66d00cf272621795f61dda4add0af15514dd5d80ba57da74088",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_10.enc"
+        },
+        {
+          "shard_id": "shard_11",
+          "sha256": "9782452f4039435f4077fa9208c7f1eba9375bd28256eebe82db1f949deb522a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_11.enc"
+        },
+        {
+          "shard_id": "shard_12",
+          "sha256": "46f60757d357dd2866e5dc0e0d2835e7502f83e057b29f35c31e4c0a349ee137",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_12.enc"
+        },
+        {
+          "shard_id": "shard_13",
+          "sha256": "37bb7e50e974d04adaef7d1840d86c1fe1539015628c5248161479a5cda01465",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_13.enc"
+        },
+        {
+          "shard_id": "shard_14",
+          "sha256": "226c3ea7b20ebb8f2382e67f9970a92086207a8395c5866f6ce78fac6ca59ab4",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_14.enc"
+        },
+        {
+          "shard_id": "shard_15",
+          "sha256": "65a44ae220f9b657ab55f2022816b1437b71d44947395fa8059dce1906c2ef76",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_15.enc"
+        },
+        {
+          "shard_id": "shard_16",
+          "sha256": "1a932c4aba2a68dc259e5b4760e3d6d5dbe466da1071bcc835eb354803ffbe42",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_16.enc"
+        },
+        {
+          "shard_id": "shard_17",
+          "sha256": "e3be8356fa3e3a13d659b57c30f12d16547c643dda296509ae88ba729ef8cb6a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_17.enc"
+        },
+        {
+          "shard_id": "shard_18",
+          "sha256": "2174b88b016758d0ab1a1d1c4994f9ab03fd7e1c317eeb61c6b7c35398fa2c67",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_18.enc"
+        },
+        {
+          "shard_id": "shard_19",
+          "sha256": "d16370fe15fbf1db238ff867f7d3518d744e0f9f9463afefea9931d44e6ba8ca",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_19.enc"
+        },
+        {
+          "shard_id": "shard_20",
+          "sha256": "254e81bf7eb9886f1d534d5622ecea765ba68a58e01243e72ade7280d4184bf3",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_20.enc"
+        },
+        {
+          "shard_id": "shard_21",
+          "sha256": "79e8e050c5d4ce9f40cc275fe0c61a4056899ec2546ba99e0df3ed004f70639d",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_21.enc"
+        },
+        {
+          "shard_id": "shard_22",
+          "sha256": "2998c255d462e5b15d69194b11d94609ee10075fde1ae14ded36b3f9d0291f8a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_22.enc"
+        },
+        {
+          "shard_id": "shard_23",
+          "sha256": "7055f908dd65d09bdd7460b297f1589bf4cce94900fdcbcf3991e3d40f6ef169",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_23.enc"
+        },
+        {
+          "shard_id": "shard_24",
+          "sha256": "7ae770b6d7a58df1894c2eb95ade69ca7c02418ecab3ff5f2a01a5117723cb83",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_24.enc"
+        },
+        {
+          "shard_id": "shard_25",
+          "sha256": "3d04a7dd43249728335e5c8fb8fc4e6e13ea4113e427dcc38eea01e43fd9fab0",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_25.enc"
+        },
+        {
+          "shard_id": "shard_26",
+          "sha256": "d5893b1714bac355a0c04455a6a5e4ebfa7c12da233c2a945e5072d750749c29",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_26.enc"
+        },
+        {
+          "shard_id": "shard_27",
+          "sha256": "d843ee4a7146a5e5d155a95d6f30dfde24c56c70471b8975d3c64705cccac2ee",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_27.enc"
+        },
+        {
+          "shard_id": "shard_28",
+          "sha256": "973f484cf171d3182da828912b4cc1fcf13f5d59372edb3e8e6202c2897fa193",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_28.enc"
+        },
+        {
+          "shard_id": "shard_29",
+          "sha256": "631f8a505e94ed512b0b0f6e6a81197b9e17847eeca2fcc20de7dba67753cde8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_29.enc"
+        },
+        {
+          "shard_id": "shard_30",
+          "sha256": "59f3394e3c99cb6b4c3b8f95bfd0665b1a9f5e36411517efa949bb389aed9183",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_30.enc"
+        },
+        {
+          "shard_id": "shard_31",
+          "sha256": "24ba3edfb3b02e4ca62739718fb69b6e1887a20ed433da3070b06b993a5f7500",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_31.enc"
+        },
+        {
+          "shard_id": "shard_32",
+          "sha256": "27764fd07c3b402dcff083812949f539a286aedb51084c81e7079a1ab32e361f",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_32.enc"
+        },
+        {
+          "shard_id": "shard_33",
+          "sha256": "fa5745d414264eab36a7b685546a8eafe15e6676faba7740a978c753fffbd5b5",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_33.enc"
+        },
+        {
+          "shard_id": "shard_34",
+          "sha256": "1e54ec47b7ed1a731ad287ee33f2234291a1f38cea594aa7ea25f3491104381d",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_34.enc"
+        },
+        {
+          "shard_id": "shard_35",
+          "sha256": "5f1bb3e01303cf2c1e778b3823bb767cda315ac1769fe141e00d516d791fa4b4",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_35.enc"
+        },
+        {
+          "shard_id": "shard_36",
+          "sha256": "8d4a400813f8d9835eaf3d54486ae9468719e224389c7856d4fcff90bddb802c",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_36.enc"
+        },
+        {
+          "shard_id": "shard_37",
+          "sha256": "f189a4001474fd8ef843b25d6b983ae4080e1ddd3ac4ca67ec0feb8c92ef85cb",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_37.enc"
+        },
+        {
+          "shard_id": "shard_38",
+          "sha256": "728ee4535bed76e6d5e799f6c9578bd759f8bbcc2f3dac8414c283105235f95e",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_38.enc"
+        },
+        {
+          "shard_id": "shard_39",
+          "sha256": "b855a8edb4a03e3550ea1c87b8f68fad24d06169ae061e0873bc1801e99e09c8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_39.enc"
+        },
+        {
+          "shard_id": "shard_40",
+          "sha256": "4240b19570fd059b642e642d1b6bb9973161dc1d1345691d1e34a853d145a845",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_40.enc"
+        },
+        {
+          "shard_id": "shard_41",
+          "sha256": "13ceebaf7065fc501bae43807f31566c6bcc753420818432a7c7dbb40193c1e1",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_41.enc"
+        },
+        {
+          "shard_id": "shard_42",
+          "sha256": "a15eca85b37941e32dc08dd359f7d15153efa3e6dd8a7b7c744860ccbb2cbde8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_42.enc"
+        },
+        {
+          "shard_id": "shard_43",
+          "sha256": "9b0da370e03f2fbea25d8b596bd428915780b30bcb06f4fc200a8d1ab5f7534d",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_43.enc"
+        },
+        {
+          "shard_id": "shard_44",
+          "sha256": "6b3ba4f4f598c1df9992d9b39c4e0224509bab4cd13fcd25dd6f02e74f15aad6",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_44.enc"
+        },
+        {
+          "shard_id": "shard_45",
+          "sha256": "f2b69a2c29249ee7ad3f11ee2075d6650bbe61f55f634755da18d8a989275b0a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_45.enc"
+        },
+        {
+          "shard_id": "shard_46",
+          "sha256": "289e53bd0a618b0f09b9422cb01a706eba1dbb7d043c485ab1bc1c1ea1e9a601",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_46.enc"
+        },
+        {
+          "shard_id": "shard_47",
+          "sha256": "23c16de30fe6f37519de9d62cc30c21c7f97ac9337804f6068c5e69ab00b08d5",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_47.enc"
+        },
+        {
+          "shard_id": "shard_48",
+          "sha256": "b54c7d076b7e698d7d4c19389e482460e385a553771c11f4459111530b7ef3c0",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_48.enc"
+        },
+        {
+          "shard_id": "shard_49",
+          "sha256": "97bd9bbf894b070d253dd9137828530666642388fe9944645bf0a1ffd832c96b",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_49.enc"
+        },
+        {
+          "shard_id": "shard_50",
+          "sha256": "7ef5ab50caeebec38ac19baa11bba9146ec607aabe322f0f9d85c02f35ec811c",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_50.enc"
+        },
+        {
+          "shard_id": "shard_51",
+          "sha256": "90ce9aa95598af297bbcb7f08b72712bac3086b3bd133a3fc719429f1e406080",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_51.enc"
+        },
+        {
+          "shard_id": "shard_52",
+          "sha256": "887d2e0a89e0454322152554d60b7da40912a1e96b27ac49e6d3817d4df19b49",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_52.enc"
+        },
+        {
+          "shard_id": "shard_53",
+          "sha256": "9df656235e96d55ec68e94f61ce785d23a74c57507d1301b9486a3abb1f5f8c8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_53.enc"
+        },
+        {
+          "shard_id": "shard_54",
+          "sha256": "1ef0fc300f0eda0024a7786ca4f77af2c4f65bf6be0e069cc1410605a31c2ca7",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_54.enc"
+        },
+        {
+          "shard_id": "shard_55",
+          "sha256": "458b97ef527ccefcfb1bee43259c83d62b66aa448e82449d7c361fcf9d5abb80",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_55.enc"
+        },
+        {
+          "shard_id": "shard_56",
+          "sha256": "60a628a73e7306aab30f354aa8d6f02e1015ffbd30c3af311331aa4e85acb0ad",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_56.enc"
+        },
+        {
+          "shard_id": "shard_57",
+          "sha256": "7190afe05aba4489be02868e5047c0432b748c8a521fb683a717eb49d0e272d4",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_57.enc"
+        },
+        {
+          "shard_id": "shard_58",
+          "sha256": "baf7d9f666ce85635e8191c1e22133b48cf2b15d1e09defc549379fba1b9d610",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_58.enc"
+        },
+        {
+          "shard_id": "shard_59",
+          "sha256": "8d7f7fa6b09488fe060829624a7f5495b11eec12d805ea10f7eab039d8bc10da",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_59.enc"
+        },
+        {
+          "shard_id": "shard_60",
+          "sha256": "d3a63cb546ac5be6a86c6dc6f6a2c663e0f138b3722f9158f8847919f4db2148",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_60.enc"
+        },
+        {
+          "shard_id": "shard_61",
+          "sha256": "8da3a44fa1821fff03c286db8c67c9e8156cd82d20de2c424005f1db7755f484",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_61.enc"
+        },
+        {
+          "shard_id": "shard_62",
+          "sha256": "34b7223de41974fff5671f93373f52b32a9553d041bff504970ce8b34c01701a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_62.enc"
+        },
+        {
+          "shard_id": "shard_63",
+          "sha256": "dc8a8eaf675db8d0b0c00edd2604fbd26b874b38cf033471bae8cd9701300781",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_63.enc"
+        },
+        {
+          "shard_id": "shard_64",
+          "sha256": "549c3e3561fd4c327666fd727bed243a4e7605e9784358b51a32d7bd96294147",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_64.enc"
+        },
+        {
+          "shard_id": "shard_65",
+          "sha256": "9c111487831cbbf29c66a1210786e8d596bc4873ad034d50a2a104243e58aede",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_65.enc"
+        },
+        {
+          "shard_id": "shard_66",
+          "sha256": "e077aa33683df6580ad4bd34738869ea0a5643585a767e8409daf1710e33b845",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_66.enc"
+        },
+        {
+          "shard_id": "shard_67",
+          "sha256": "61ea5d4f2228d937ee31cb70831ee89bcc4d0d0ca223b986fe38ac117837f2f6",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_67.enc"
+        },
+        {
+          "shard_id": "shard_68",
+          "sha256": "a142e573fa3963eb4aecc3f594496ac9c99cfbfb484f2b82ef3625441f597e95",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_68.enc"
+        },
+        {
+          "shard_id": "shard_69",
+          "sha256": "7dad2f76b56450b70dd09913865df7845287d5a370b23ce1799eb30c84424ef4",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_69.enc"
+        },
+        {
+          "shard_id": "shard_70",
+          "sha256": "6c4f17770fee9cacb29fc7e08013f55a0413a0d78f2c4a1e2b73d4c9061e1f80",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_70.enc"
+        },
+        {
+          "shard_id": "shard_71",
+          "sha256": "f5ce4a0766ff56667c6079fee3a1e30836aa59395f23ebd4687e5dc357a61bda",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_71.enc"
+        },
+        {
+          "shard_id": "shard_72",
+          "sha256": "bca08b66c32ff3c71a9d4184329d25f636f199ba722f491ca116cd515cef74ea",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_72.enc"
+        },
+        {
+          "shard_id": "shard_73",
+          "sha256": "1a48ae21f8d8a550e0d45109405f63b46534ce0f1af2c893838e533755a8703c",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_73.enc"
+        },
+        {
+          "shard_id": "shard_74",
+          "sha256": "7aa9072c14483c57035c621b0f2399fa12b3597d81693c6c7f73648515bd3426",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_74.enc"
+        },
+        {
+          "shard_id": "shard_75",
+          "sha256": "e978a8d355694d7fefcac8aa764378fb7a5fb50cde058c4575d1a045c2e16420",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_75.enc"
+        },
+        {
+          "shard_id": "shard_76",
+          "sha256": "784a9c6696acf86ac1edd00996ab70f49b73d976fd6f967b8fb20e125dc5b65a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_76.enc"
+        },
+        {
+          "shard_id": "shard_77",
+          "sha256": "5355ac02abbf6ccd7e9388ba53eb4273cd4bde520075a0653a79332ae15a3179",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_77.enc"
+        },
+        {
+          "shard_id": "shard_78",
+          "sha256": "49f838587410ca553f4c61929065104905f5e54599eb9839e2200dcbfa3eb488",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_78.enc"
+        },
+        {
+          "shard_id": "shard_79",
+          "sha256": "2baa8bf7a91a43be7c061ff0207a8949a51b1245b43ff72e801322cd833e2e39",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_79.enc"
+        },
+        {
+          "shard_id": "shard_80",
+          "sha256": "dacc5b93f809cd5255ea26382c8d4131cbb3d2870325be293b3bd09f1039118c",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_80.enc"
+        },
+        {
+          "shard_id": "shard_81",
+          "sha256": "9f6a0c33618c06468a1fb73fd5553abf57c897200e5c7fa479b2800fb524b876",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_81.enc"
+        },
+        {
+          "shard_id": "shard_82",
+          "sha256": "76836e8aed28ccb572cab5e3ca0f456fb3cde5e45e7fc7a4ca4ad5b76ca01377",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_82.enc"
+        },
+        {
+          "shard_id": "shard_83",
+          "sha256": "6a28e6e9a924c7cbf4791213cb063b8dc397ca5458f4b14fc8c8916866d22bf9",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_83.enc"
+        },
+        {
+          "shard_id": "shard_84",
+          "sha256": "82096f30d5c528459c164efc25a5646e8d5e1d10824c994048a6f43fef733d3e",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_84.enc"
+        },
+        {
+          "shard_id": "shard_85",
+          "sha256": "39c6a44b8401e2387d500e0e94ff7159429c4633fda5fde1b6d3f2196eb295ea",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_85.enc"
+        },
+        {
+          "shard_id": "shard_86",
+          "sha256": "f5ce919b10a8d62cc79366226a8fa9a5d64a5814e4fe89e55ee5761ccb294ffc",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_86.enc"
+        },
+        {
+          "shard_id": "shard_87",
+          "sha256": "aaff115c07e1b0949e153268738b58711686c8b2b41d4fdbea238ca1331a4805",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_87.enc"
+        },
+        {
+          "shard_id": "shard_88",
+          "sha256": "26f87c1e392adfb1b90979fec6b338035e58aa050cc1c7c04c842aaa285e1782",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_88.enc"
+        },
+        {
+          "shard_id": "shard_89",
+          "sha256": "5168ba4a0740dccb84be8b44eba4a1b7461c9da25f26053e51b089fe1b510853",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_89.enc"
+        },
+        {
+          "shard_id": "shard_90",
+          "sha256": "2eb5fdf2806a445f9b7db76846616e2c6c07e4cdaee7a6f6e960ea51e2cf45a7",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_90.enc"
+        },
+        {
+          "shard_id": "shard_91",
+          "sha256": "9867d6b66d17faf0701b0d73052b9e584eacf88a272f65862f1f0d907eccfda3",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_91.enc"
+        },
+        {
+          "shard_id": "shard_92",
+          "sha256": "a318e4d5b1ea853d729444c111c8c8f7d95c5b4d422e8921a33d761bf1a7a3fb",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_92.enc"
+        },
+        {
+          "shard_id": "shard_93",
+          "sha256": "fba796f6228063b613c34ea7dcc1cc2ed24c816e4c8f2915872839c37f72af49",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_93.enc"
+        },
+        {
+          "shard_id": "shard_94",
+          "sha256": "46a24334f3c5f7fa6467e0baa8ea9f22623f0d9240caf3adbf3286b1020abb09",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_94.enc"
+        },
+        {
+          "shard_id": "shard_95",
+          "sha256": "fdab545711bcd2ff322ad49fa7ae5c342fb475826710e940d76f893936816fd2",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_95.enc"
+        },
+        {
+          "shard_id": "shard_96",
+          "sha256": "78ea0e9cd12213768dd5c3b5b4a8a4b27e2ae8e09594c8494a0fa9a854b214c3",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_96.enc"
+        },
+        {
+          "shard_id": "shard_97",
+          "sha256": "c7f7f56572f557b547b61b6838ef8870105dfcf5ef9235a4a23e44dafe10e86f",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_97.enc"
+        },
+        {
+          "shard_id": "shard_98",
+          "sha256": "9c9b97d2a4376bec64829d9dcd4e9452b2356aef38ab7c14c950fd0b21f1a4a5",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_98.enc"
+        },
+        {
+          "shard_id": "shard_99",
+          "sha256": "827bd0f71ee380031ba4fdfc94118e4cc0790d16ef68432ed91eabde333228a8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_99.enc"
+        },
+        {
+          "shard_id": "shard_100",
+          "sha256": "688fb64e59d44cb273b2d1f43f0529c5314f3408ee45ab9aa18e842a07873855",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_100.enc"
+        },
+        {
+          "shard_id": "shard_101",
+          "sha256": "a25641a038bc32cdc23a8d457265196e8c73f7e1ad2b0f7d373f2e44a091d3bc",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_101.enc"
+        },
+        {
+          "shard_id": "shard_102",
+          "sha256": "071a54609177f8232ddc2f4dd580df1f434cc1b83aba18e7532b7920a356b1c3",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_102.enc"
+        },
+        {
+          "shard_id": "shard_103",
+          "sha256": "f99370ac4ca4c13a700c9443f14f0cd0a545334cd08886197f6d0d2c03880f86",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_103.enc"
+        },
+        {
+          "shard_id": "shard_104",
+          "sha256": "17e21097a2e436119fcb3fee0e267a1cf0ca69356f4fb5a06200011c74c5c956",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_104.enc"
+        },
+        {
+          "shard_id": "shard_105",
+          "sha256": "93cdcc2db77bc4997e8d82a7063a973481b26f1364966b4dd18c2c13b793b98f",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_105.enc"
+        },
+        {
+          "shard_id": "shard_106",
+          "sha256": "7f616d333a648f34060f5b4b58905de0fa0279582c80af0b74de7be56696b138",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_106.enc"
+        },
+        {
+          "shard_id": "shard_107",
+          "sha256": "93df713e59de4c10bb3fdc3845edd0eda569b77003f88932ed924de83dd49205",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_107.enc"
+        },
+        {
+          "shard_id": "shard_108",
+          "sha256": "85a04cf8a7817c5ca38a8bf1cc8f434b01008abe59e927ca0b0d983bc3012316",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_108.enc"
+        },
+        {
+          "shard_id": "shard_109",
+          "sha256": "327d0ae7f04928411961f70b55ff3481f29dadf4756e02acf52ddc62435b7335",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_109.enc"
+        },
+        {
+          "shard_id": "shard_110",
+          "sha256": "924d03906b5e698ab1d472dded088391daba98b8afc7282f50f6eaaaed1216ff",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_110.enc"
+        },
+        {
+          "shard_id": "shard_111",
+          "sha256": "639bdf7d9fcd57660e54e8664ae7c28d3a3229492792a58f803adc9cae970c94",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_111.enc"
+        },
+        {
+          "shard_id": "shard_112",
+          "sha256": "46755a2fb3ff508ed088e10c75d5e89072d67d79196defc2ecc9a0e894502236",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_112.enc"
+        },
+        {
+          "shard_id": "shard_113",
+          "sha256": "c7f28071f01bb36f27c0864803032242703d44f6fc4ed0c9cf61910665218967",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_113.enc"
+        },
+        {
+          "shard_id": "shard_114",
+          "sha256": "ca63e53a3fff79e2a7da43db63310545734c93d3572c067f231f2adb90b7a32e",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_114.enc"
+        },
+        {
+          "shard_id": "shard_115",
+          "sha256": "6a3fff3cbb06def15cf723b9c92c8240fd5c534124bd09124337d758d5324ce6",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_115.enc"
+        },
+        {
+          "shard_id": "shard_116",
+          "sha256": "9be2524b9cd38765d3e6cfd33127d7ec00940b87d4b5b52e59e5bb2f2eaeae0d",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_116.enc"
+        },
+        {
+          "shard_id": "shard_117",
+          "sha256": "72b24d7fb69c79e7704191504978ddea0ea6bbec63c64d96afbd215a96a135b1",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_117.enc"
+        },
+        {
+          "shard_id": "shard_118",
+          "sha256": "ac42d7740e991200c933a1f2e0f01558de3163087a539a990f9dbf8af11713cd",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_118.enc"
+        },
+        {
+          "shard_id": "shard_119",
+          "sha256": "79aed5974a864af457f5187528ae4f0032b6cf061aeaadc45d7bdc8b1a4fda54",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_119.enc"
+        },
+        {
+          "shard_id": "shard_120",
+          "sha256": "2daeb8e33c4a9a0ddf96a7c93fc82c0a45ed21ef441ae2f8c0a6a4b3060ac570",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_120.enc"
+        },
+        {
+          "shard_id": "shard_121",
+          "sha256": "1e1f3d60b187250858fb3c2b851099865645cf5626dcab8ecc3c7825a8fa8987",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_121.enc"
+        },
+        {
+          "shard_id": "shard_122",
+          "sha256": "fdf3d673e068c7baa4771741ad0aeca7961b48e64d77bee950d0ed446de9e5d8",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_122.enc"
+        },
+        {
+          "shard_id": "shard_123",
+          "sha256": "046d74f99501d64e6e20481b9870c1db8014a5e363f61cad57a8caad81bc3632",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_123.enc"
+        },
+        {
+          "shard_id": "shard_124",
+          "sha256": "86f2631efd60777e6671070d4fdcd1ea1a405355d4a17c8b3395c4c8a74d6b37",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_124.enc"
+        },
+        {
+          "shard_id": "shard_125",
+          "sha256": "9c66e6fc66f30364b13c236ff441717190901e90b4820392a752ab503f129748",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_125.enc"
+        },
+        {
+          "shard_id": "shard_126",
+          "sha256": "04db425056868cacd68daba8d5b77ba8e6af31fa92904ac9f05db85a8de46089",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_126.enc"
+        },
+        {
+          "shard_id": "shard_127",
+          "sha256": "44bec1e1ba230c0d742fe3bdda10365c05159a364e2445ae1e3f232aa2a872b5",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_127.enc"
+        },
+        {
+          "shard_id": "shard_128",
+          "sha256": "b4a21b5a300b490209391861505ce2ebff542f6e7cc39f31cbe20cba90aaa603",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_128.enc"
+        },
+        {
+          "shard_id": "shard_129",
+          "sha256": "b9f6bc5cdf30fa7b46721921712978f40a1d81415820374f8e78473fa5dd7d09",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_129.enc"
+        },
+        {
+          "shard_id": "shard_130",
+          "sha256": "3ea10a3582e804f5a4ae1d0e3fc406834800e7544910f41630167b2fe4f243bb",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_130.enc"
+        },
+        {
+          "shard_id": "shard_131",
+          "sha256": "67593c0da63161380376ba3ccabb42a3bf9efd51f2f0953eb786b1eed0fbaa1e",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_131.enc"
+        },
+        {
+          "shard_id": "shard_132",
+          "sha256": "af8474e81e143cb214198dafabce975b6277f36aea4269da961da64ec84817f2",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_132.enc"
+        },
+        {
+          "shard_id": "shard_133",
+          "sha256": "97683da032bec325f7983fea7b8592059c0da811ddcc5b7cecabd99e83bdb468",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_133.enc"
+        },
+        {
+          "shard_id": "shard_134",
+          "sha256": "fa9caff11ec3afa459f187f5d1f3b67111ad0861e1d0dac6e02f700b5e878e1a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_134.enc"
+        },
+        {
+          "shard_id": "shard_135",
+          "sha256": "5e054b82c80778a9f3811e08a0ca7a8573ce82a358463a97a3845d7d3d0ec59a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_135.enc"
+        },
+        {
+          "shard_id": "shard_136",
+          "sha256": "314835c605f37321b9a4f9bddd0b5957c0ed596a72d663a74dc2bac7e3097795",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_136.enc"
+        },
+        {
+          "shard_id": "shard_137",
+          "sha256": "2eefea136e09adb4d7ca3cf305e9bb5a3839e3165b59c671063444a767f71bc4",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_137.enc"
+        },
+        {
+          "shard_id": "shard_138",
+          "sha256": "0a06ecb256d226154b407f61f4b2d9593a0c301551d2a25b3bc35f6446031731",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_138.enc"
+        },
+        {
+          "shard_id": "shard_139",
+          "sha256": "1f3c50d91570834c516050c7b24ea30641faea139e866300d0aa971481f0dc84",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_139.enc"
+        },
+        {
+          "shard_id": "shard_140",
+          "sha256": "d47aa79fe0a6401df17fccea35a3386103eb092cd82ce81991313c117887258c",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_140.enc"
+        },
+        {
+          "shard_id": "shard_141",
+          "sha256": "fc5e69dbd97cb8449dd8fd3998879a7ca5a51d34b6250816930b4e61b6bbfd2a",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_141.enc"
+        },
+        {
+          "shard_id": "shard_142",
+          "sha256": "68d3f60e7ce7af65298a553a27cb301f78f038ead53bdb3b07f75b66cff46ad2",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_142.enc"
+        },
+        {
+          "shard_id": "shard_143",
+          "sha256": "e6b0ce5663755aa9c45984376f5bad727382333af290621a0491365ece8f3523",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_143.enc"
+        },
+        {
+          "shard_id": "shard_144",
+          "sha256": "01ec3240686355039e7f9da861cf3c7fa25d0d02baa6068330b608464e6cf662",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_144.enc"
+        },
+        {
+          "shard_id": "shard_145",
+          "sha256": "32c3915a605462c104a230b488a8210cf2ed6609d9e8b9465a10839e8cfdfd5b",
+          "rows": 3000,
+          "enc_path": "3_p2p_storage\\shards\\shard_145.enc"
+        },
+        {
+          "shard_id": "shard_146",
+          "sha256": "378630596080c6b7744f069defd22a472ccc208c4875bd0e47a3ee1d29a9cda9",
+          "rows": 1307,
+          "enc_path": "3_p2p_storage\\shards\\shard_146.enc"
+        }
+      ],
+      "merkle_root": "b5fe0a60d00a9cc89dd1fcf6fd988be7e173bfddb9ad53bfbb212def3c026a3a"
+    }
+  },
+  "global_update_present": true,
+  "global_update": {
+    "coef": "[[-2.70122139e-01 -9.13333592e-01  1.55195814e-03 -1.68519576e-01\n   8.25892076e-01  1.60984676e-03 -4.81589613e-01 -3.84776409e+00\n  -4.81589613e-01 -2.04711826e-01 -5.44719242e-01  1.51071628e-02\n   1.45977034e-02 -1.41942649e+00 -2.10180661e-01 -2.88065020e-01\n   5.86084210e-01 -5.39707288e-01 -3.10804348e-01  1.80288811e-01\n   1.85905645e+00 -2.04735861e+00  2.47871467e+00 -2.21805511e+00\n   4.22764462e-01 -4.22763466e-01 -1.11277679e-03  6.50733971e-01\n  -6.50733971e-01 -5.84864705e-01  5.84864705e-01]]",
+    "intercept": "[1.68590247]"
+  },
+  "global_update_coef": [
+    [
+      -0.2701221394129955,
+      -0.9133335924092232,
+      0.0015519581353432134,
+      -0.16851957620621602,
+      0.8258920764074648,
+      0.0016098467563272418,
+      -0.4815896127414096,
+      -3.8477640897436904,
+      -0.4815896127414094,
+      -0.20471182619076517,
+      -0.544719242490591,
+      0.015107162770776278,
+      0.014597703380613445,
+      -1.4194264910635817,
+      -0.21018066080914996,
+      -0.28806501970929893,
+      0.5860842098711955,
+      -0.5397072884128178,
+      -0.3108043476513661,
+      0.1802888112751817,
+      1.8590564502083922,
+      -2.0473586146478575,
+      2.4787146658842967,
+      -2.218055110340134,
+      0.42276446210739665,
+      -0.4227634659124702,
+      -0.001112776786188029,
+      0.6507339705734406,
+      -0.6507339705734407,
+      -0.5848647046615219,
+      0.5848647046615219
+    ]
+  ],
+  "global_update_intercept": [
+    1.685902469434722
+  ]
+}

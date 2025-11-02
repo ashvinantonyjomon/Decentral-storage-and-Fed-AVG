@@ -1,0 +1,1034 @@
+stage,shard_id,start_ts,duration_s,notes
+preprocess,-,1761272730.9327497,0.686292,features=31;train=439307;test=146436
+shard_construct,-,1761272731.6190422,0.019447,num_shards=147;sizes=[3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 3000; 1307]
+encrypt,shard_0,1761272731.6408124,0.008001,rows=3000
+save_enc,shard_0,1761272731.6498325,0.001139,3_p2p_storage\shards\shard_0.enc
+shamir_split,shard_0,1761272731.6519923,0.000000,n=5;t=3
+distribute_shares,shard_0,1761272731.652996,0.002000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_0,1761272731.655991,0.020749,replicated_to=5
+encrypt,shard_1,1761272731.6767404,0.005431,rows=3000
+save_enc,shard_1,1761272731.682171,0.001825,3_p2p_storage\shards\shard_1.enc
+shamir_split,shard_1,1761272731.6850305,0.000000,n=5;t=3
+distribute_shares,shard_1,1761272731.6850305,0.004423,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_1,1761272731.6894531,0.020772,replicated_to=5
+encrypt,shard_2,1761272731.7102246,0.000000,rows=3000
+save_enc,shard_2,1761272731.7102246,0.005036,3_p2p_storage\shards\shard_2.enc
+shamir_split,shard_2,1761272731.715572,0.000000,n=5;t=3
+distribute_shares,shard_2,1761272731.715572,0.003309,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_2,1761272731.7197917,0.018148,replicated_to=5
+encrypt,shard_3,1761272731.73794,0.000000,rows=3000
+save_enc,shard_3,1761272731.73794,0.000000,3_p2p_storage\shards\shard_3.enc
+shamir_split,shard_3,1761272731.73794,0.000000,n=5;t=3
+distribute_shares,shard_3,1761272731.73794,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_3,1761272731.745989,0.017468,replicated_to=5
+encrypt,shard_4,1761272731.76468,0.002012,rows=3000
+save_enc,shard_4,1761272731.7675076,0.000000,3_p2p_storage\shards\shard_4.enc
+shamir_split,shard_4,1761272731.7675076,0.000000,n=5;t=3
+distribute_shares,shard_4,1761272731.7675076,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_4,1761272731.7675076,0.022386,replicated_to=5
+encrypt,shard_5,1761272731.7898932,0.001312,rows=3000
+save_enc,shard_5,1761272731.7912047,0.000000,3_p2p_storage\shards\shard_5.enc
+shamir_split,shard_5,1761272731.7912047,0.000000,n=5;t=3
+distribute_shares,shard_5,1761272731.7912047,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_5,1761272731.7912047,0.021249,replicated_to=5
+encrypt,shard_6,1761272731.812454,0.001177,rows=3000
+save_enc,shard_6,1761272731.8136313,0.002018,3_p2p_storage\shards\shard_6.enc
+shamir_split,shard_6,1761272731.8156495,0.001135,n=5;t=3
+distribute_shares,shard_6,1761272731.817302,0.001340,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_6,1761272731.8186417,0.015849,replicated_to=5
+encrypt,shard_7,1761272731.83574,0.001094,rows=3000
+save_enc,shard_7,1761272731.837835,0.000999,3_p2p_storage\shards\shard_7.enc
+shamir_split,shard_7,1761272731.8388343,0.000706,n=5;t=3
+distribute_shares,shard_7,1761272731.8395402,0.001759,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_7,1761272731.8412993,0.016925,replicated_to=5
+encrypt,shard_8,1761272731.8582242,0.000000,rows=3000
+save_enc,shard_8,1761272731.8582242,0.000000,3_p2p_storage\shards\shard_8.enc
+shamir_split,shard_8,1761272731.8582242,0.000000,n=5;t=3
+distribute_shares,shard_8,1761272731.8582242,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_8,1761272731.8582242,0.022253,replicated_to=5
+encrypt,shard_9,1761272731.8804767,0.003119,rows=3000
+save_enc,shard_9,1761272731.8846512,0.001495,3_p2p_storage\shards\shard_9.enc
+shamir_split,shard_9,1761272731.8861458,0.001016,n=5;t=3
+distribute_shares,shard_9,1761272731.887162,0.001440,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_9,1761272731.8886023,0.016544,replicated_to=5
+encrypt,shard_10,1761272731.9051464,0.002621,rows=3000
+save_enc,shard_10,1761272731.9077678,0.000000,3_p2p_storage\shards\shard_10.enc
+shamir_split,shard_10,1761272731.9077678,0.000000,n=5;t=3
+distribute_shares,shard_10,1761272731.9077678,0.003158,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_10,1761272731.9109259,0.017839,replicated_to=5
+encrypt,shard_11,1761272731.9300544,0.001400,rows=3000
+save_enc,shard_11,1761272731.931454,0.001079,3_p2p_storage\shards\shard_11.enc
+shamir_split,shard_11,1761272731.933572,0.000000,n=5;t=3
+distribute_shares,shard_11,1761272731.9341736,0.001335,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_11,1761272731.935509,0.017725,replicated_to=5
+encrypt,shard_12,1761272731.9532337,0.002256,rows=3000
+save_enc,shard_12,1761272731.9564886,0.000000,3_p2p_storage\shards\shard_12.enc
+shamir_split,shard_12,1761272731.9564886,0.001539,n=5;t=3
+distribute_shares,shard_12,1761272731.9580274,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_12,1761272731.9580274,0.025652,replicated_to=5
+encrypt,shard_13,1761272731.9846456,0.001594,rows=3000
+save_enc,shard_13,1761272731.98624,0.000000,3_p2p_storage\shards\shard_13.enc
+shamir_split,shard_13,1761272731.98624,0.000000,n=5;t=3
+distribute_shares,shard_13,1761272731.98624,0.007114,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_13,1761272731.9933538,0.023767,replicated_to=5
+encrypt,shard_14,1761272732.018215,0.000000,rows=3000
+save_enc,shard_14,1761272732.018215,0.004013,3_p2p_storage\shards\shard_14.enc
+shamir_split,shard_14,1761272732.0222278,0.000000,n=5;t=3
+distribute_shares,shard_14,1761272732.0222278,0.003567,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_14,1761272732.0257945,0.014021,replicated_to=5
+encrypt,shard_15,1761272732.0480502,0.001422,rows=3000
+save_enc,shard_15,1761272732.0505466,0.001001,3_p2p_storage\shards\shard_15.enc
+shamir_split,shard_15,1761272732.0525453,0.000000,n=5;t=3
+distribute_shares,shard_15,1761272732.0525453,0.002367,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_15,1761272732.0560687,0.018276,replicated_to=5
+encrypt,shard_16,1761272732.0758464,0.001375,rows=3000
+save_enc,shard_16,1761272732.0772214,0.000000,3_p2p_storage\shards\shard_16.enc
+shamir_split,shard_16,1761272732.0772214,0.000000,n=5;t=3
+distribute_shares,shard_16,1761272732.0772214,0.005562,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_16,1761272732.082783,0.018764,replicated_to=5
+encrypt,shard_17,1761272732.1038783,0.001444,rows=3000
+save_enc,shard_17,1761272732.1053226,0.000000,3_p2p_storage\shards\shard_17.enc
+shamir_split,shard_17,1761272732.108449,0.000000,n=5;t=3
+distribute_shares,shard_17,1761272732.108449,0.002395,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_17,1761272732.1108444,0.022059,replicated_to=5
+encrypt,shard_18,1761272732.1339312,0.001010,rows=3000
+save_enc,shard_18,1761272732.134941,0.000000,3_p2p_storage\shards\shard_18.enc
+shamir_split,shard_18,1761272732.134941,0.000000,n=5;t=3
+distribute_shares,shard_18,1761272732.134941,0.006438,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_18,1761272732.141379,0.021303,replicated_to=5
+encrypt,shard_19,1761272732.164212,0.002040,rows=3000
+save_enc,shard_19,1761272732.167275,0.000773,3_p2p_storage\shards\shard_19.enc
+shamir_split,shard_19,1761272732.1680484,0.000000,n=5;t=3
+distribute_shares,shard_19,1761272732.1680484,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_19,1761272732.1680484,0.025690,replicated_to=5
+encrypt,shard_20,1761272732.1953425,0.001234,rows=3000
+save_enc,shard_20,1761272732.1965766,0.000000,3_p2p_storage\shards\shard_20.enc
+shamir_split,shard_20,1761272732.199391,0.000422,n=5;t=3
+distribute_shares,shard_20,1761272732.1998124,0.002023,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_20,1761272732.202617,0.023142,replicated_to=5
+encrypt,shard_21,1761272732.2277737,0.002017,rows=3000
+save_enc,shard_21,1761272732.2297902,0.003330,3_p2p_storage\shards\shard_21.enc
+shamir_split,shard_21,1761272732.2331204,0.001015,n=5;t=3
+distribute_shares,shard_21,1761272732.235132,0.003326,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_21,1761272732.2404711,0.035830,replicated_to=5
+encrypt,shard_22,1761272732.2789917,0.004215,rows=3000
+save_enc,shard_22,1761272732.2842493,0.001455,3_p2p_storage\shards\shard_22.enc
+shamir_split,shard_22,1761272732.2867036,0.000000,n=5;t=3
+distribute_shares,shard_22,1761272732.287703,0.005205,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_22,1761272732.2929077,0.034923,replicated_to=5
+encrypt,shard_23,1761272732.3294315,0.002936,rows=3000
+save_enc,shard_23,1761272732.3323674,0.000000,3_p2p_storage\shards\shard_23.enc
+shamir_split,shard_23,1761272732.3323674,0.000000,n=5;t=3
+distribute_shares,shard_23,1761272732.335689,0.002571,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_23,1761272732.3393197,0.017862,replicated_to=5
+encrypt,shard_24,1761272732.361724,0.001312,rows=3000
+save_enc,shard_24,1761272732.363036,0.000000,3_p2p_storage\shards\shard_24.enc
+shamir_split,shard_24,1761272732.363036,0.000000,n=5;t=3
+distribute_shares,shard_24,1761272732.363036,0.006101,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_24,1761272732.369137,0.019023,replicated_to=5
+encrypt,shard_25,1761272732.3891563,0.002046,rows=3000
+save_enc,shard_25,1761272732.391202,0.000999,3_p2p_storage\shards\shard_25.enc
+shamir_split,shard_25,1761272732.3932002,0.000000,n=5;t=3
+distribute_shares,shard_25,1761272732.3932002,0.001142,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_25,1761272732.394342,0.021615,replicated_to=5
+encrypt,shard_26,1761272732.4164612,0.000000,rows=3000
+save_enc,shard_26,1761272732.4164612,0.000000,3_p2p_storage\shards\shard_26.enc
+shamir_split,shard_26,1761272732.4164612,0.000000,n=5;t=3
+distribute_shares,shard_26,1761272732.4164612,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_26,1761272732.4164612,0.025455,replicated_to=5
+encrypt,shard_27,1761272732.4431372,0.002100,rows=3000
+save_enc,shard_27,1761272732.4452367,0.000000,3_p2p_storage\shards\shard_27.enc
+shamir_split,shard_27,1761272732.4467273,0.000000,n=5;t=3
+distribute_shares,shard_27,1761272732.4467273,0.002002,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_27,1761272732.4487298,0.021122,replicated_to=5
+encrypt,shard_28,1761272732.469852,0.001292,rows=3000
+save_enc,shard_28,1761272732.4711437,0.000000,3_p2p_storage\shards\shard_28.enc
+shamir_split,shard_28,1761272732.4711437,0.000000,n=5;t=3
+distribute_shares,shard_28,1761272732.4711437,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_28,1761272732.4711437,0.023628,replicated_to=5
+encrypt,shard_29,1761272732.498355,0.001174,rows=3000
+save_enc,shard_29,1761272732.499529,0.002854,3_p2p_storage\shards\shard_29.enc
+shamir_split,shard_29,1761272732.5023825,0.000000,n=5;t=3
+distribute_shares,shard_29,1761272732.5038266,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_29,1761272732.5061038,0.019894,replicated_to=5
+encrypt,shard_30,1761272732.527234,0.001752,rows=3000
+save_enc,shard_30,1761272732.5289865,0.000000,3_p2p_storage\shards\shard_30.enc
+shamir_split,shard_30,1761272732.5289865,0.000000,n=5;t=3
+distribute_shares,shard_30,1761272732.5289865,0.004642,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_30,1761272732.533629,0.020638,replicated_to=5
+encrypt,shard_31,1761272732.5542674,0.000000,rows=3000
+save_enc,shard_31,1761272732.5542674,0.000000,3_p2p_storage\shards\shard_31.enc
+shamir_split,shard_31,1761272732.5542674,0.000000,n=5;t=3
+distribute_shares,shard_31,1761272732.5605063,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_31,1761272732.5627549,0.024086,replicated_to=5
+encrypt,shard_32,1761272732.5878458,0.002305,rows=3000
+save_enc,shard_32,1761272732.590151,0.000000,3_p2p_storage\shards\shard_32.enc
+shamir_split,shard_32,1761272732.590151,0.000000,n=5;t=3
+distribute_shares,shard_32,1761272732.590151,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_32,1761272732.590151,0.026192,replicated_to=5
+encrypt,shard_33,1761272732.6183784,0.000000,rows=3000
+save_enc,shard_33,1761272732.6183784,0.000000,3_p2p_storage\shards\shard_33.enc
+shamir_split,shard_33,1761272732.6183784,0.000000,n=5;t=3
+distribute_shares,shard_33,1761272732.6183784,0.007767,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_33,1761272732.6261451,0.024000,replicated_to=5
+encrypt,shard_34,1761272732.650145,0.002223,rows=3000
+save_enc,shard_34,1761272732.6523676,0.000000,3_p2p_storage\shards\shard_34.enc
+shamir_split,shard_34,1761272732.6523676,0.000000,n=5;t=3
+distribute_shares,shard_34,1761272732.6567307,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_34,1761272732.6567307,0.024514,replicated_to=5
+encrypt,shard_35,1761272732.681245,0.003516,rows=3000
+save_enc,shard_35,1761272732.6867726,0.000000,3_p2p_storage\shards\shard_35.enc
+shamir_split,shard_35,1761272732.6867726,0.000000,n=5;t=3
+distribute_shares,shard_35,1761272732.6867726,0.004392,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_35,1761272732.6911645,0.019675,replicated_to=5
+encrypt,shard_36,1761272732.7135825,0.002174,rows=3000
+save_enc,shard_36,1761272732.7157562,0.000000,3_p2p_storage\shards\shard_36.enc
+shamir_split,shard_36,1761272732.7174373,0.000000,n=5;t=3
+distribute_shares,shard_36,1761272732.7174373,0.001666,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_36,1761272732.7191033,0.025818,replicated_to=5
+encrypt,shard_37,1761272732.744921,0.000000,rows=3000
+save_enc,shard_37,1761272732.7482438,0.000000,3_p2p_storage\shards\shard_37.enc
+shamir_split,shard_37,1761272732.7482438,0.000000,n=5;t=3
+distribute_shares,shard_37,1761272732.7516406,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_37,1761272732.7516406,0.023510,replicated_to=5
+encrypt,shard_38,1761272732.7768645,0.001330,rows=3000
+save_enc,shard_38,1761272732.7781944,0.002044,3_p2p_storage\shards\shard_38.enc
+shamir_split,shard_38,1761272732.7802386,0.000000,n=5;t=3
+distribute_shares,shard_38,1761272732.781999,0.002876,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_38,1761272732.7848747,0.019982,replicated_to=5
+encrypt,shard_39,1761272732.8061092,0.002482,rows=3000
+save_enc,shard_39,1761272732.8085914,0.001002,3_p2p_storage\shards\shard_39.enc
+shamir_split,shard_39,1761272732.8095932,0.000000,n=5;t=3
+distribute_shares,shard_39,1761272732.8108318,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_39,1761272732.8108318,0.020507,replicated_to=5
+encrypt,shard_40,1761272732.8329237,0.000000,rows=3000
+save_enc,shard_40,1761272732.8329237,0.000000,3_p2p_storage\shards\shard_40.enc
+shamir_split,shard_40,1761272732.8329237,0.000000,n=5;t=3
+distribute_shares,shard_40,1761272732.8329237,0.007599,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_40,1761272732.8405225,0.021620,replicated_to=5
+encrypt,shard_41,1761272732.8631418,0.002010,rows=3000
+save_enc,shard_41,1761272732.865152,0.001003,3_p2p_storage\shards\shard_41.enc
+shamir_split,shard_41,1761272732.8661544,0.000000,n=5;t=3
+distribute_shares,shard_41,1761272732.8661544,0.002124,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_41,1761272732.8682783,0.020118,replicated_to=5
+encrypt,shard_42,1761272732.888396,0.000000,rows=3000
+save_enc,shard_42,1761272732.888396,0.000000,3_p2p_storage\shards\shard_42.enc
+shamir_split,shard_42,1761272732.888396,0.000000,n=5;t=3
+distribute_shares,shard_42,1761272732.888396,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_42,1761272732.888396,0.032597,replicated_to=5
+encrypt,shard_43,1761272732.9209929,0.002308,rows=3000
+save_enc,shard_43,1761272732.9243014,0.000000,3_p2p_storage\shards\shard_43.enc
+shamir_split,shard_43,1761272732.9243014,0.000000,n=5;t=3
+distribute_shares,shard_43,1761272732.9243014,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_43,1761272732.9283636,0.018772,replicated_to=5
+encrypt,shard_44,1761272732.948577,0.001493,rows=3000
+save_enc,shard_44,1761272732.9500704,0.000000,3_p2p_storage\shards\shard_44.enc
+shamir_split,shard_44,1761272732.9500704,0.000000,n=5;t=3
+distribute_shares,shard_44,1761272732.9500704,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_44,1761272732.9500704,0.024949,replicated_to=5
+encrypt,shard_45,1761272732.976022,0.002447,rows=3000
+save_enc,shard_45,1761272732.9784694,0.000000,3_p2p_storage\shards\shard_45.enc
+shamir_split,shard_45,1761272732.9784694,0.000000,n=5;t=3
+distribute_shares,shard_45,1761272732.9784694,0.004089,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_45,1761272732.9825585,0.022288,replicated_to=5
+encrypt,shard_46,1761272733.0048468,0.004089,rows=3000
+save_enc,shard_46,1761272733.010293,0.000000,3_p2p_storage\shards\shard_46.enc
+shamir_split,shard_46,1761272733.010293,0.000000,n=5;t=3
+distribute_shares,shard_46,1761272733.010293,0.005181,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_46,1761272733.0169814,0.026917,replicated_to=5
+encrypt,shard_47,1761272733.045038,0.000000,rows=3000
+save_enc,shard_47,1761272733.045038,0.000000,3_p2p_storage\shards\shard_47.enc
+shamir_split,shard_47,1761272733.045038,0.000000,n=5;t=3
+distribute_shares,shard_47,1761272733.0518985,0.002746,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_47,1761272733.055655,0.022144,replicated_to=5
+encrypt,shard_48,1761272733.0818563,0.001471,rows=3000
+save_enc,shard_48,1761272733.0851274,0.001376,3_p2p_storage\shards\shard_48.enc
+shamir_split,shard_48,1761272733.0865037,0.000000,n=5;t=3
+distribute_shares,shard_48,1761272733.0865037,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_48,1761272733.0865037,0.019756,replicated_to=5
+encrypt,shard_49,1761272733.1062598,0.000000,rows=3000
+save_enc,shard_49,1761272733.115661,0.000000,3_p2p_storage\shards\shard_49.enc
+shamir_split,shard_49,1761272733.115661,0.003951,n=5;t=3
+distribute_shares,shard_49,1761272733.1196115,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_49,1761272733.1196115,0.028384,replicated_to=5
+encrypt,shard_50,1761272733.1479955,0.002012,rows=3000
+save_enc,shard_50,1761272733.1520221,0.001751,3_p2p_storage\shards\shard_50.enc
+shamir_split,shard_50,1761272733.153773,0.000000,n=5;t=3
+distribute_shares,shard_50,1761272733.1552253,0.002859,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_50,1761272733.1580844,0.025875,replicated_to=5
+encrypt,shard_51,1761272733.1855593,0.002670,rows=3000
+save_enc,shard_51,1761272733.1892307,0.001004,3_p2p_storage\shards\shard_51.enc
+shamir_split,shard_51,1761272733.1902347,0.000999,n=5;t=3
+distribute_shares,shard_51,1761272733.1912339,0.002910,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_51,1761272733.1949184,0.025406,replicated_to=5
+encrypt,shard_52,1761272733.2222824,0.002002,rows=3000
+save_enc,shard_52,1761272733.2252874,0.000999,3_p2p_storage\shards\shard_52.enc
+shamir_split,shard_52,1761272733.2262864,0.001001,n=5;t=3
+distribute_shares,shard_52,1761272733.227287,0.003000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_52,1761272733.2302868,0.022734,replicated_to=5
+encrypt,shard_53,1761272733.2530205,0.003342,rows=3000
+save_enc,shard_53,1761272733.2583702,0.000000,3_p2p_storage\shards\shard_53.enc
+shamir_split,shard_53,1761272733.2603786,0.000000,n=5;t=3
+distribute_shares,shard_53,1761272733.2603786,0.002012,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_53,1761272733.2644062,0.024182,replicated_to=5
+encrypt,shard_54,1761272733.2895885,0.001998,rows=3000
+save_enc,shard_54,1761272733.2915866,0.001281,3_p2p_storage\shards\shard_54.enc
+shamir_split,shard_54,1761272733.2928672,0.000000,n=5;t=3
+distribute_shares,shard_54,1761272733.2928672,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_54,1761272733.2928672,0.025593,replicated_to=5
+encrypt,shard_55,1761272733.3191786,0.000000,rows=3000
+save_enc,shard_55,1761272733.3191786,0.000000,3_p2p_storage\shards\shard_55.enc
+shamir_split,shard_55,1761272733.3191786,0.000000,n=5;t=3
+distribute_shares,shard_55,1761272733.3191786,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_55,1761272733.3191786,0.026434,replicated_to=5
+encrypt,shard_56,1761272733.3467329,0.001399,rows=3000
+save_enc,shard_56,1761272733.3481314,0.000000,3_p2p_storage\shards\shard_56.enc
+shamir_split,shard_56,1761272733.3481314,0.000000,n=5;t=3
+distribute_shares,shard_56,1761272733.3481314,0.004556,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_56,1761272733.3526878,0.021886,replicated_to=5
+encrypt,shard_57,1761272733.3745737,0.000000,rows=3000
+save_enc,shard_57,1761272733.3745737,0.000000,3_p2p_storage\shards\shard_57.enc
+shamir_split,shard_57,1761272733.3745737,0.000000,n=5;t=3
+distribute_shares,shard_57,1761272733.3745737,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_57,1761272733.3745737,0.029707,replicated_to=5
+encrypt,shard_58,1761272733.4042807,0.001432,rows=3000
+save_enc,shard_58,1761272733.405713,0.000000,3_p2p_storage\shards\shard_58.enc
+shamir_split,shard_58,1761272733.405713,0.000000,n=5;t=3
+distribute_shares,shard_58,1761272733.405713,0.004161,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_58,1761272733.4098744,0.020885,replicated_to=5
+encrypt,shard_59,1761272733.4307597,0.001160,rows=3000
+save_enc,shard_59,1761272733.4319198,0.002978,3_p2p_storage\shards\shard_59.enc
+shamir_split,shard_59,1761272733.4352798,0.000613,n=5;t=3
+distribute_shares,shard_59,1761272733.4362528,0.001966,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_59,1761272733.4382184,0.021065,replicated_to=5
+encrypt,shard_60,1761272733.4592838,0.000000,rows=3000
+save_enc,shard_60,1761272733.4592838,0.000000,3_p2p_storage\shards\shard_60.enc
+shamir_split,shard_60,1761272733.4592838,0.000000,n=5;t=3
+distribute_shares,shard_60,1761272733.4592838,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_60,1761272733.4592838,0.027861,replicated_to=5
+encrypt,shard_61,1761272733.4910533,0.001457,rows=3000
+save_enc,shard_61,1761272733.4925106,0.002013,3_p2p_storage\shards\shard_61.enc
+shamir_split,shard_61,1761272733.494524,0.000000,n=5;t=3
+distribute_shares,shard_61,1761272733.494524,0.003173,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_61,1761272733.4976974,0.023447,replicated_to=5
+encrypt,shard_62,1761272733.5239732,0.000000,rows=3000
+save_enc,shard_62,1761272733.5239732,0.000000,3_p2p_storage\shards\shard_62.enc
+shamir_split,shard_62,1761272733.5280106,0.000000,n=5;t=3
+distribute_shares,shard_62,1761272733.5280106,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_62,1761272733.5280106,0.027492,replicated_to=5
+encrypt,shard_63,1761272733.555503,0.000000,rows=3000
+save_enc,shard_63,1761272733.555503,0.000000,3_p2p_storage\shards\shard_63.enc
+shamir_split,shard_63,1761272733.555503,0.000000,n=5;t=3
+distribute_shares,shard_63,1761272733.5620818,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_63,1761272733.5620818,0.026864,replicated_to=5
+encrypt,shard_64,1761272733.589974,0.000757,rows=3000
+save_enc,shard_64,1761272733.5928078,0.000000,3_p2p_storage\shards\shard_64.enc
+shamir_split,shard_64,1761272733.5928078,0.000000,n=5;t=3
+distribute_shares,shard_64,1761272733.5928078,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_64,1761272733.5928078,0.027969,replicated_to=5
+encrypt,shard_65,1761272733.6207764,0.000000,rows=3000
+save_enc,shard_65,1761272733.6207764,0.000000,3_p2p_storage\shards\shard_65.enc
+shamir_split,shard_65,1761272733.6207764,0.000000,n=5;t=3
+distribute_shares,shard_65,1761272733.627446,0.001890,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_65,1761272733.6303382,0.023637,replicated_to=5
+encrypt,shard_66,1761272733.653975,0.000000,rows=3000
+save_enc,shard_66,1761272733.653975,0.000000,3_p2p_storage\shards\shard_66.enc
+shamir_split,shard_66,1761272733.653975,0.000000,n=5;t=3
+distribute_shares,shard_66,1761272733.653975,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_66,1761272733.653975,0.031155,replicated_to=5
+encrypt,shard_67,1761272733.686357,0.002775,rows=3000
+save_enc,shard_67,1761272733.6891325,0.001576,3_p2p_storage\shards\shard_67.enc
+shamir_split,shard_67,1761272733.6907082,0.000000,n=5;t=3
+distribute_shares,shard_67,1761272733.6907082,0.003925,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_67,1761272733.6946332,0.021974,replicated_to=5
+encrypt,shard_68,1761272733.7185898,0.002021,rows=3000
+save_enc,shard_68,1761272733.7206109,0.001803,3_p2p_storage\shards\shard_68.enc
+shamir_split,shard_68,1761272733.7224135,0.001651,n=5;t=3
+distribute_shares,shard_68,1761272733.724064,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_68,1761272733.724064,0.029066,replicated_to=5
+encrypt,shard_69,1761272733.7545156,0.002784,rows=3000
+save_enc,shard_69,1761272733.7573,0.003453,3_p2p_storage\shards\shard_69.enc
+shamir_split,shard_69,1761272733.7607532,0.000000,n=5;t=3
+distribute_shares,shard_69,1761272733.7607532,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_69,1761272733.7607532,0.026245,replicated_to=5
+encrypt,shard_70,1761272733.7869985,0.008787,rows=3000
+save_enc,shard_70,1761272733.7957857,0.000000,3_p2p_storage\shards\shard_70.enc
+shamir_split,shard_70,1761272733.7957857,0.000000,n=5;t=3
+distribute_shares,shard_70,1761272733.7957857,0.005075,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_70,1761272733.8019843,0.022955,replicated_to=5
+encrypt,shard_71,1761272733.826113,0.002559,rows=3000
+save_enc,shard_71,1761272733.828672,0.000000,3_p2p_storage\shards\shard_71.enc
+shamir_split,shard_71,1761272733.828672,0.000000,n=5;t=3
+distribute_shares,shard_71,1761272733.828672,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_71,1761272733.828672,0.028853,replicated_to=5
+encrypt,shard_72,1761272733.8575246,0.001530,rows=3000
+save_enc,shard_72,1761272733.8590548,0.000000,3_p2p_storage\shards\shard_72.enc
+shamir_split,shard_72,1761272733.8618522,0.000000,n=5;t=3
+distribute_shares,shard_72,1761272733.8618522,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_72,1761272733.8618522,0.022406,replicated_to=5
+encrypt,shard_73,1761272733.8854673,0.002433,rows=3000
+save_enc,shard_73,1761272733.8878999,0.000000,3_p2p_storage\shards\shard_73.enc
+shamir_split,shard_73,1761272733.889989,0.000000,n=5;t=3
+distribute_shares,shard_73,1761272733.889989,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_73,1761272733.889989,0.022604,replicated_to=5
+encrypt,shard_74,1761272733.9125931,0.003738,rows=3000
+save_enc,shard_74,1761272733.9163313,0.000000,3_p2p_storage\shards\shard_74.enc
+shamir_split,shard_74,1761272733.9163313,0.002476,n=5;t=3
+distribute_shares,shard_74,1761272733.9188073,0.002008,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_74,1761272733.9220214,0.018010,replicated_to=5
+encrypt,shard_75,1761272733.9419434,0.001515,rows=3000
+save_enc,shard_75,1761272733.9434586,0.000000,3_p2p_storage\shards\shard_75.enc
+shamir_split,shard_75,1761272733.9464128,0.000000,n=5;t=3
+distribute_shares,shard_75,1761272733.9464128,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_75,1761272733.9464128,0.027059,replicated_to=5
+encrypt,shard_76,1761272733.9744914,0.002192,rows=3000
+save_enc,shard_76,1761272733.9776828,0.000000,3_p2p_storage\shards\shard_76.enc
+shamir_split,shard_76,1761272733.9776828,0.000000,n=5;t=3
+distribute_shares,shard_76,1761272733.979298,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_76,1761272733.979298,0.025204,replicated_to=5
+encrypt,shard_77,1761272734.0045025,0.002885,rows=3000
+save_enc,shard_77,1761272734.0089014,0.000000,3_p2p_storage\shards\shard_77.enc
+shamir_split,shard_77,1761272734.0101123,0.000000,n=5;t=3
+distribute_shares,shard_77,1761272734.0101123,0.002013,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_77,1761272734.012125,0.026161,replicated_to=5
+encrypt,shard_78,1761272734.038286,0.000000,rows=3000
+save_enc,shard_78,1761272734.038286,0.000000,3_p2p_storage\shards\shard_78.enc
+shamir_split,shard_78,1761272734.0452178,0.000000,n=5;t=3
+distribute_shares,shard_78,1761272734.0452178,0.001450,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_78,1761272734.0485146,0.022645,replicated_to=5
+encrypt,shard_79,1761272734.07116,0.000000,rows=3000
+save_enc,shard_79,1761272734.07116,0.000000,3_p2p_storage\shards\shard_79.enc
+shamir_split,shard_79,1761272734.07116,0.000000,n=5;t=3
+distribute_shares,shard_79,1761272734.07116,0.008214,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_79,1761272734.0793736,0.031084,replicated_to=5
+encrypt,shard_80,1761272734.110458,0.000000,rows=3000
+save_enc,shard_80,1761272734.110458,0.000000,3_p2p_storage\shards\shard_80.enc
+shamir_split,shard_80,1761272734.110458,0.006254,n=5;t=3
+distribute_shares,shard_80,1761272734.1172206,0.001730,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_80,1761272734.1202397,0.022143,replicated_to=5
+encrypt,shard_81,1761272734.142383,0.003240,rows=3000
+save_enc,shard_81,1761272734.145623,0.000000,3_p2p_storage\shards\shard_81.enc
+shamir_split,shard_81,1761272734.1486168,0.000000,n=5;t=3
+distribute_shares,shard_81,1761272734.1486168,0.003660,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_81,1761272734.1522768,0.023364,replicated_to=5
+encrypt,shard_82,1761272734.1756406,0.001693,rows=3000
+save_enc,shard_82,1761272734.1773338,0.000000,3_p2p_storage\shards\shard_82.enc
+shamir_split,shard_82,1761272734.1803234,0.000000,n=5;t=3
+distribute_shares,shard_82,1761272734.1803234,0.002448,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_82,1761272734.1827717,0.022156,replicated_to=5
+encrypt,shard_83,1761272734.2070155,0.000000,rows=3000
+save_enc,shard_83,1761272734.2070155,0.000000,3_p2p_storage\shards\shard_83.enc
+shamir_split,shard_83,1761272734.2070155,0.000000,n=5;t=3
+distribute_shares,shard_83,1761272734.2070155,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_83,1761272734.2070155,0.030066,replicated_to=5
+encrypt,shard_84,1761272734.2381425,0.002519,rows=3000
+save_enc,shard_84,1761272734.2406616,0.000000,3_p2p_storage\shards\shard_84.enc
+shamir_split,shard_84,1761272734.2430978,0.000000,n=5;t=3
+distribute_shares,shard_84,1761272734.2430978,0.002532,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_84,1761272734.24563,0.014657,replicated_to=5
+encrypt,shard_85,1761272734.269417,0.001814,rows=3000
+save_enc,shard_85,1761272734.2712314,0.002364,3_p2p_storage\shards\shard_85.enc
+shamir_split,shard_85,1761272734.2735956,0.001450,n=5;t=3
+distribute_shares,shard_85,1761272734.2750452,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_85,1761272734.2750452,0.018184,replicated_to=5
+encrypt,shard_86,1761272734.3000972,0.002664,rows=3000
+save_enc,shard_86,1761272734.3027613,0.001068,3_p2p_storage\shards\shard_86.enc
+shamir_split,shard_86,1761272734.3045535,0.000000,n=5;t=3
+distribute_shares,shard_86,1761272734.3045535,0.002923,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_86,1761272734.3074765,0.021114,replicated_to=5
+encrypt,shard_87,1761272734.3300214,0.001370,rows=3000
+save_enc,shard_87,1761272734.3313913,0.000000,3_p2p_storage\shards\shard_87.enc
+shamir_split,shard_87,1761272734.3313913,0.000000,n=5;t=3
+distribute_shares,shard_87,1761272734.3313913,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_87,1761272734.3361125,0.018638,replicated_to=5
+encrypt,shard_88,1761272734.3547502,0.002120,rows=3000
+save_enc,shard_88,1761272734.3578684,0.000000,3_p2p_storage\shards\shard_88.enc
+shamir_split,shard_88,1761272734.3588731,0.000000,n=5;t=3
+distribute_shares,shard_88,1761272734.3588731,0.001299,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_88,1761272734.3601723,0.016597,replicated_to=5
+encrypt,shard_89,1761272734.3797345,0.001162,rows=3000
+save_enc,shard_89,1761272734.3808968,0.000000,3_p2p_storage\shards\shard_89.enc
+shamir_split,shard_89,1761272734.3808968,0.000000,n=5;t=3
+distribute_shares,shard_89,1761272734.3808968,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_89,1761272734.3808968,0.024438,replicated_to=5
+encrypt,shard_90,1761272734.4064488,0.002084,rows=3000
+save_enc,shard_90,1761272734.4085333,0.001001,3_p2p_storage\shards\shard_90.enc
+shamir_split,shard_90,1761272734.4095342,0.000000,n=5;t=3
+distribute_shares,shard_90,1761272734.4095342,0.002572,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_90,1761272734.4121065,0.020694,replicated_to=5
+encrypt,shard_91,1761272734.434126,0.002173,rows=3000
+save_enc,shard_91,1761272734.436299,0.001040,3_p2p_storage\shards\shard_91.enc
+shamir_split,shard_91,1761272734.43808,0.000000,n=5;t=3
+distribute_shares,shard_91,1761272734.43808,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_91,1761272734.43808,0.023931,replicated_to=5
+encrypt,shard_92,1761272734.4620109,0.001823,rows=3000
+save_enc,shard_92,1761272734.4638336,0.000000,3_p2p_storage\shards\shard_92.enc
+shamir_split,shard_92,1761272734.4638336,0.000000,n=5;t=3
+distribute_shares,shard_92,1761272734.4686341,0.003202,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_92,1761272734.4728322,0.017626,replicated_to=5
+encrypt,shard_93,1761272734.495391,0.002883,rows=3000
+save_enc,shard_93,1761272734.498274,0.000000,3_p2p_storage\shards\shard_93.enc
+shamir_split,shard_93,1761272734.498274,0.000000,n=5;t=3
+distribute_shares,shard_93,1761272734.498274,0.004843,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_93,1761272734.5041456,0.022175,replicated_to=5
+encrypt,shard_94,1761272734.5273206,0.001316,rows=3000
+save_enc,shard_94,1761272734.5286365,0.000000,3_p2p_storage\shards\shard_94.enc
+shamir_split,shard_94,1761272734.5315819,0.000000,n=5;t=3
+distribute_shares,shard_94,1761272734.5315819,0.002353,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_94,1761272734.5353155,0.021352,replicated_to=5
+encrypt,shard_95,1761272734.5616946,0.001364,rows=3000
+save_enc,shard_95,1761272734.5630589,0.001942,3_p2p_storage\shards\shard_95.enc
+shamir_split,shard_95,1761272734.5650008,0.000000,n=5;t=3
+distribute_shares,shard_95,1761272734.5667596,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_95,1761272734.5667596,0.024644,replicated_to=5
+encrypt,shard_96,1761272734.5926554,0.001412,rows=3000
+save_enc,shard_96,1761272734.5940678,0.000000,3_p2p_storage\shards\shard_96.enc
+shamir_split,shard_96,1761272734.5940678,0.000000,n=5;t=3
+distribute_shares,shard_96,1761272734.5940678,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_96,1761272734.5940678,0.030009,replicated_to=5
+encrypt,shard_97,1761272734.6240764,0.000000,rows=3000
+save_enc,shard_97,1761272734.6240764,0.000000,3_p2p_storage\shards\shard_97.enc
+shamir_split,shard_97,1761272734.6240764,0.000000,n=5;t=3
+distribute_shares,shard_97,1761272734.6240764,0.008663,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_97,1761272734.6327395,0.025742,replicated_to=5
+encrypt,shard_98,1761272734.6584814,0.002558,rows=3000
+save_enc,shard_98,1761272734.661039,0.000000,3_p2p_storage\shards\shard_98.enc
+shamir_split,shard_98,1761272734.661039,0.000000,n=5;t=3
+distribute_shares,shard_98,1761272734.661039,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_98,1761272734.668,0.022820,replicated_to=5
+encrypt,shard_99,1761272734.6908197,0.003001,rows=3000
+save_enc,shard_99,1761272734.6938212,0.003014,3_p2p_storage\shards\shard_99.enc
+shamir_split,shard_99,1761272734.6968353,0.000000,n=5;t=3
+distribute_shares,shard_99,1761272734.6968353,0.003672,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_99,1761272734.700507,0.027010,replicated_to=5
+encrypt,shard_100,1761272734.7275171,0.002012,rows=3000
+save_enc,shard_100,1761272734.7295291,0.000000,3_p2p_storage\shards\shard_100.enc
+shamir_split,shard_100,1761272734.7295291,0.000000,n=5;t=3
+distribute_shares,shard_100,1761272734.7295291,0.007283,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_100,1761272734.7368119,0.039259,replicated_to=5
+encrypt,shard_101,1761272734.776071,0.000000,rows=3000
+save_enc,shard_101,1761272734.776071,0.006441,3_p2p_storage\shards\shard_101.enc
+shamir_split,shard_101,1761272734.7825122,0.000000,n=5;t=3
+distribute_shares,shard_101,1761272734.7825122,0.009042,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_101,1761272734.7926736,0.036995,replicated_to=5
+encrypt,shard_102,1761272734.8296685,0.002994,rows=3000
+save_enc,shard_102,1761272734.8326628,0.001001,3_p2p_storage\shards\shard_102.enc
+shamir_split,shard_102,1761272734.833664,0.001485,n=5;t=3
+distribute_shares,shard_102,1761272734.8351493,0.003225,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_102,1761272734.8383746,0.022904,replicated_to=5
+encrypt,shard_103,1761272734.8628793,0.001323,rows=3000
+save_enc,shard_103,1761272734.8642023,0.000000,3_p2p_storage\shards\shard_103.enc
+shamir_split,shard_103,1761272734.8642023,0.000000,n=5;t=3
+distribute_shares,shard_103,1761272734.8642023,0.004968,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_103,1761272734.8691702,0.022318,replicated_to=5
+encrypt,shard_104,1761272734.8914883,0.003011,rows=3000
+save_enc,shard_104,1761272734.8944995,0.000000,3_p2p_storage\shards\shard_104.enc
+shamir_split,shard_104,1761272734.8944995,0.000000,n=5;t=3
+distribute_shares,shard_104,1761272734.8944995,0.003165,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_104,1761272734.89878,0.019561,replicated_to=5
+encrypt,shard_105,1761272734.9194477,0.001962,rows=3000
+save_enc,shard_105,1761272734.9219248,0.000000,3_p2p_storage\shards\shard_105.enc
+shamir_split,shard_105,1761272734.9219248,0.000000,n=5;t=3
+distribute_shares,shard_105,1761272734.9219248,0.003311,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_105,1761272734.9264598,0.017871,replicated_to=5
+encrypt,shard_106,1761272734.9455206,0.001581,rows=3000
+save_enc,shard_106,1761272734.947102,0.000000,3_p2p_storage\shards\shard_106.enc
+shamir_split,shard_106,1761272734.947102,0.000000,n=5;t=3
+distribute_shares,shard_106,1761272734.947102,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_106,1761272734.947102,0.024825,replicated_to=5
+encrypt,shard_107,1761272734.9750714,0.000000,rows=3000
+save_enc,shard_107,1761272734.9750714,0.000000,3_p2p_storage\shards\shard_107.enc
+shamir_split,shard_107,1761272734.9750714,0.000000,n=5;t=3
+distribute_shares,shard_107,1761272734.9750714,0.004793,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_107,1761272734.9798646,0.020720,replicated_to=5
+encrypt,shard_108,1761272735.001755,0.001991,rows=3000
+save_enc,shard_108,1761272735.0037463,0.001522,3_p2p_storage\shards\shard_108.enc
+shamir_split,shard_108,1761272735.0052683,0.000000,n=5;t=3
+distribute_shares,shard_108,1761272735.0052683,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_108,1761272735.0052683,0.024989,replicated_to=5
+encrypt,shard_109,1761272735.0302577,0.003115,rows=3000
+save_enc,shard_109,1761272735.0333729,0.000000,3_p2p_storage\shards\shard_109.enc
+shamir_split,shard_109,1761272735.0333729,0.000000,n=5;t=3
+distribute_shares,shard_109,1761272735.0333729,0.005867,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_109,1761272735.03924,0.021911,replicated_to=5
+encrypt,shard_110,1761272735.0611508,0.002826,rows=3000
+save_enc,shard_110,1761272735.0639772,0.000000,3_p2p_storage\shards\shard_110.enc
+shamir_split,shard_110,1761272735.0639772,0.000000,n=5;t=3
+distribute_shares,shard_110,1761272735.0639772,0.005124,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_110,1761272735.0691016,0.021210,replicated_to=5
+encrypt,shard_111,1761272735.090312,0.000000,rows=3000
+save_enc,shard_111,1761272735.090312,0.000000,3_p2p_storage\shards\shard_111.enc
+shamir_split,shard_111,1761272735.090312,0.000000,n=5;t=3
+distribute_shares,shard_111,1761272735.090312,0.007098,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_111,1761272735.0974097,0.021707,replicated_to=5
+encrypt,shard_112,1761272735.1206775,0.001699,rows=3000
+save_enc,shard_112,1761272735.1223764,0.002238,3_p2p_storage\shards\shard_112.enc
+shamir_split,shard_112,1761272735.1246142,0.000000,n=5;t=3
+distribute_shares,shard_112,1761272735.1261108,0.001099,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_112,1761272735.1285918,0.016312,replicated_to=5
+encrypt,shard_113,1761272735.1505845,0.001366,rows=3000
+save_enc,shard_113,1761272735.1519501,0.002067,3_p2p_storage\shards\shard_113.enc
+shamir_split,shard_113,1761272735.155029,0.000000,n=5;t=3
+distribute_shares,shard_113,1761272735.1557763,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_113,1761272735.1557763,0.022269,replicated_to=5
+encrypt,shard_114,1761272735.1780453,0.003029,rows=3000
+save_enc,shard_114,1761272735.1810746,0.000000,3_p2p_storage\shards\shard_114.enc
+shamir_split,shard_114,1761272735.1835544,0.000000,n=5;t=3
+distribute_shares,shard_114,1761272735.1835544,0.002511,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_114,1761272735.186065,0.022513,replicated_to=5
+encrypt,shard_115,1761272735.2095785,0.002001,rows=3000
+save_enc,shard_115,1761272735.2115793,0.000000,3_p2p_storage\shards\shard_115.enc
+shamir_split,shard_115,1761272735.2115793,0.000000,n=5;t=3
+distribute_shares,shard_115,1761272735.2149813,0.001572,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_115,1761272735.216553,0.024691,replicated_to=5
+encrypt,shard_116,1761272735.2432215,0.002017,rows=3000
+save_enc,shard_116,1761272735.245238,0.002662,3_p2p_storage\shards\shard_116.enc
+shamir_split,shard_116,1761272735.2479,0.000000,n=5;t=3
+distribute_shares,shard_116,1761272735.2479,0.004032,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_116,1761272735.2519324,0.027379,replicated_to=5
+encrypt,shard_117,1761272735.2793117,0.008300,rows=3000
+save_enc,shard_117,1761272735.287612,0.001488,3_p2p_storage\shards\shard_117.enc
+shamir_split,shard_117,1761272735.2890997,0.002061,n=5;t=3
+distribute_shares,shard_117,1761272735.2911606,0.002013,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_117,1761272735.293174,0.029491,replicated_to=5
+encrypt,shard_118,1761272735.322665,0.000000,rows=3000
+save_enc,shard_118,1761272735.322665,0.000000,3_p2p_storage\shards\shard_118.enc
+shamir_split,shard_118,1761272735.322665,0.000000,n=5;t=3
+distribute_shares,shard_118,1761272735.322665,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_118,1761272735.322665,0.034753,replicated_to=5
+encrypt,shard_119,1761272735.357418,0.000000,rows=3000
+save_enc,shard_119,1761272735.357418,0.000000,3_p2p_storage\shards\shard_119.enc
+shamir_split,shard_119,1761272735.357418,0.000000,n=5;t=3
+distribute_shares,shard_119,1761272735.357418,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_119,1761272735.357418,0.031284,replicated_to=5
+encrypt,shard_120,1761272735.3887017,0.000000,rows=3000
+save_enc,shard_120,1761272735.3887017,0.000000,3_p2p_storage\shards\shard_120.enc
+shamir_split,shard_120,1761272735.3887017,0.000000,n=5;t=3
+distribute_shares,shard_120,1761272735.3887017,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_120,1761272735.3979506,0.017010,replicated_to=5
+encrypt,shard_121,1761272735.416208,0.000508,rows=3000
+save_enc,shard_121,1761272735.4167159,0.000000,3_p2p_storage\shards\shard_121.enc
+shamir_split,shard_121,1761272735.4167159,0.000000,n=5;t=3
+distribute_shares,shard_121,1761272735.4167159,0.004372,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_121,1761272735.4210875,0.016709,replicated_to=5
+encrypt,shard_122,1761272735.4388282,0.001729,rows=3000
+save_enc,shard_122,1761272735.4405568,0.001104,3_p2p_storage\shards\shard_122.enc
+shamir_split,shard_122,1761272735.4416606,0.001015,n=5;t=3
+distribute_shares,shard_122,1761272735.4426754,0.001355,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_122,1761272735.44403,0.016762,replicated_to=5
+encrypt,shard_123,1761272735.4621463,0.000000,rows=3000
+save_enc,shard_123,1761272735.4621463,0.000000,3_p2p_storage\shards\shard_123.enc
+shamir_split,shard_123,1761272735.4621463,0.000000,n=5;t=3
+distribute_shares,shard_123,1761272735.4621463,0.004990,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_123,1761272735.467136,0.020617,replicated_to=5
+encrypt,shard_124,1761272735.489255,0.002014,rows=3000
+save_enc,shard_124,1761272735.4912694,0.001305,3_p2p_storage\shards\shard_124.enc
+shamir_split,shard_124,1761272735.4925747,0.000000,n=5;t=3
+distribute_shares,shard_124,1761272735.4935744,0.002000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_124,1761272735.495574,0.016618,replicated_to=5
+encrypt,shard_125,1761272735.5143178,0.000000,rows=3000
+save_enc,shard_125,1761272735.5143178,0.002508,3_p2p_storage\shards\shard_125.enc
+shamir_split,shard_125,1761272735.516826,0.000000,n=5;t=3
+distribute_shares,shard_125,1761272735.516826,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_125,1761272735.516826,0.023135,replicated_to=5
+encrypt,shard_126,1761272735.539961,0.002268,rows=3000
+save_enc,shard_126,1761272735.5437045,0.000000,3_p2p_storage\shards\shard_126.enc
+shamir_split,shard_126,1761272735.545117,0.000000,n=5;t=3
+distribute_shares,shard_126,1761272735.545117,0.001403,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_126,1761272735.5465198,0.021135,replicated_to=5
+encrypt,shard_127,1761272735.5689223,0.000000,rows=3000
+save_enc,shard_127,1761272735.571269,0.001141,3_p2p_storage\shards\shard_127.enc
+shamir_split,shard_127,1761272735.5729918,0.000000,n=5;t=3
+distribute_shares,shard_127,1761272735.5729918,0.002315,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_127,1761272735.575307,0.025110,replicated_to=5
+encrypt,shard_128,1761272735.6019218,0.001248,rows=3000
+save_enc,shard_128,1761272735.6047378,0.000000,3_p2p_storage\shards\shard_128.enc
+shamir_split,shard_128,1761272735.6062732,0.000000,n=5;t=3
+distribute_shares,shard_128,1761272735.6062732,0.001996,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_128,1761272735.6082687,0.020057,replicated_to=5
+encrypt,shard_129,1761272735.6297972,0.001280,rows=3000
+save_enc,shard_129,1761272735.6310775,0.000000,3_p2p_storage\shards\shard_129.enc
+shamir_split,shard_129,1761272735.6310775,0.000000,n=5;t=3
+distribute_shares,shard_129,1761272735.6310775,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_129,1761272735.6310775,0.024822,replicated_to=5
+encrypt,shard_130,1761272735.6567051,0.002109,rows=3000
+save_enc,shard_130,1761272735.6598115,0.001004,3_p2p_storage\shards\shard_130.enc
+shamir_split,shard_130,1761272735.6608157,0.001004,n=5;t=3
+distribute_shares,shard_130,1761272735.6618192,0.001296,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_130,1761272735.6631155,0.020088,replicated_to=5
+encrypt,shard_131,1761272735.6843624,0.001980,rows=3000
+save_enc,shard_131,1761272735.6863427,0.000000,3_p2p_storage\shards\shard_131.enc
+shamir_split,shard_131,1761272735.6881108,0.000000,n=5;t=3
+distribute_shares,shard_131,1761272735.6881108,0.002261,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_131,1761272735.691625,0.020146,replicated_to=5
+encrypt,shard_132,1761272735.7129183,0.001720,rows=3000
+save_enc,shard_132,1761272735.7146387,0.000000,3_p2p_storage\shards\shard_132.enc
+shamir_split,shard_132,1761272735.7146387,0.002510,n=5;t=3
+distribute_shares,shard_132,1761272735.7171488,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_132,1761272735.7171488,0.020821,replicated_to=5
+encrypt,shard_133,1761272735.7391994,0.000561,rows=3000
+save_enc,shard_133,1761272735.7397602,0.003552,3_p2p_storage\shards\shard_133.enc
+shamir_split,shard_133,1761272735.7433126,0.000000,n=5;t=3
+distribute_shares,shard_133,1761272735.7433126,0.002550,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_133,1761272735.7458625,0.029839,replicated_to=5
+encrypt,shard_134,1761272735.775701,0.003876,rows=3000
+save_enc,shard_134,1761272735.7824888,0.002017,3_p2p_storage\shards\shard_134.enc
+shamir_split,shard_134,1761272735.7845054,0.000000,n=5;t=3
+distribute_shares,shard_134,1761272735.7862003,0.004120,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_134,1761272735.7903202,0.032420,replicated_to=5
+encrypt,shard_135,1761272735.8230865,0.000000,rows=3000
+save_enc,shard_135,1761272735.8230865,0.000000,3_p2p_storage\shards\shard_135.enc
+shamir_split,shard_135,1761272735.8230865,0.000000,n=5;t=3
+distribute_shares,shard_135,1761272735.8230865,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_135,1761272735.8230865,0.030967,replicated_to=5
+encrypt,shard_136,1761272735.8550053,0.001325,rows=3000
+save_enc,shard_136,1761272735.8563304,0.000000,3_p2p_storage\shards\shard_136.enc
+shamir_split,shard_136,1761272735.8563304,0.000000,n=5;t=3
+distribute_shares,shard_136,1761272735.8563304,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_136,1761272735.8563304,0.021935,replicated_to=5
+encrypt,shard_137,1761272735.8782651,0.002860,rows=3000
+save_enc,shard_137,1761272735.8811252,0.000000,3_p2p_storage\shards\shard_137.enc
+shamir_split,shard_137,1761272735.8811252,0.000000,n=5;t=3
+distribute_shares,shard_137,1761272735.8811252,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_137,1761272735.8811252,0.023996,replicated_to=5
+encrypt,shard_138,1761272735.9062715,0.000820,rows=3000
+save_enc,shard_138,1761272735.9089236,0.000000,3_p2p_storage\shards\shard_138.enc
+shamir_split,shard_138,1761272735.9089236,0.000000,n=5;t=3
+distribute_shares,shard_138,1761272735.9089236,0.003814,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_138,1761272735.9127376,0.017351,replicated_to=5
+encrypt,shard_139,1761272735.9300883,0.008417,rows=3000
+save_enc,shard_139,1761272735.9399543,0.000000,3_p2p_storage\shards\shard_139.enc
+shamir_split,shard_139,1761272735.9399543,0.000000,n=5;t=3
+distribute_shares,shard_139,1761272735.941903,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_139,1761272735.941903,0.019392,replicated_to=5
+encrypt,shard_140,1761272735.9627237,0.001256,rows=3000
+save_enc,shard_140,1761272735.9639797,0.000000,3_p2p_storage\shards\shard_140.enc
+shamir_split,shard_140,1761272735.9639797,0.000000,n=5;t=3
+distribute_shares,shard_140,1761272735.9639797,0.003572,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_140,1761272735.969146,0.020913,replicated_to=5
+encrypt,shard_141,1761272735.9900594,0.001713,rows=3000
+save_enc,shard_141,1761272735.9917727,0.000000,3_p2p_storage\shards\shard_141.enc
+shamir_split,shard_141,1761272735.9917727,0.000000,n=5;t=3
+distribute_shares,shard_141,1761272735.9917727,0.005447,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_141,1761272735.9972196,0.021614,replicated_to=5
+encrypt,shard_142,1761272736.0188334,0.003117,rows=3000
+save_enc,shard_142,1761272736.0230162,0.000372,3_p2p_storage\shards\shard_142.enc
+shamir_split,shard_142,1761272736.023388,0.002117,n=5;t=3
+distribute_shares,shard_142,1761272736.0255048,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_142,1761272736.028601,0.020132,replicated_to=5
+encrypt,shard_143,1761272736.0514762,0.000507,rows=3000
+save_enc,shard_143,1761272736.0519836,0.000000,3_p2p_storage\shards\shard_143.enc
+shamir_split,shard_143,1761272736.0551271,0.000000,n=5;t=3
+distribute_shares,shard_143,1761272736.0551271,0.003328,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_143,1761272736.0584552,0.015302,replicated_to=5
+encrypt,shard_144,1761272736.0785415,0.001139,rows=3000
+save_enc,shard_144,1761272736.0796807,0.000000,3_p2p_storage\shards\shard_144.enc
+shamir_split,shard_144,1761272736.0796807,0.000000,n=5;t=3
+distribute_shares,shard_144,1761272736.0796807,0.004935,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_144,1761272736.0846155,0.022513,replicated_to=5
+encrypt,shard_145,1761272736.1071284,0.000000,rows=3000
+save_enc,shard_145,1761272736.1071284,0.000000,3_p2p_storage\shards\shard_145.enc
+shamir_split,shard_145,1761272736.1071284,0.000000,n=5;t=3
+distribute_shares,shard_145,1761272736.1071284,0.000000,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_145,1761272736.1071284,0.032737,replicated_to=5
+encrypt,shard_146,1761272736.1403773,0.000000,rows=1307
+save_enc,shard_146,1761272736.1403773,0.002246,3_p2p_storage\shards\shard_146.enc
+shamir_split,shard_146,1761272736.1426232,0.000000,n=5;t=3
+distribute_shares,shard_146,1761272736.1426232,0.003087,nodes=['node1'; 'node2'; 'node3'; 'node4'; 'node5']
+replicate,shard_146,1761272736.1457098,0.018374,replicated_to=5
+merkle_ledger,-,1761272736.1640835,0.022730,merkle_root=b5fe0a60d00a9cc89dd1fcf6fd988be7e173bfddb9ad53bfbb212def3c026a3a
+retrieve_decrypt,shard_0,1761272736.186813,0.037274,rows=3000
+local_train,shard_0,1761272736.2240872,0.026871,trained=yes;n=3000
+retrieve_decrypt,shard_1,1761272736.2520068,0.038380,rows=3000
+local_train,shard_1,1761272736.2903872,0.022184,trained=yes;n=3000
+retrieve_decrypt,shard_2,1761272736.3125708,0.033432,rows=3000
+local_train,shard_2,1761272736.3460033,0.012881,trained=yes;n=3000
+retrieve_decrypt,shard_3,1761272736.3588846,0.037278,rows=3000
+local_train,shard_3,1761272736.4059298,0.001459,trained=yes;n=3000
+retrieve_decrypt,shard_4,1761272736.4177651,0.039641,rows=3000
+local_train,shard_4,1761272736.4574058,0.027053,trained=yes;n=3000
+retrieve_decrypt,shard_5,1761272736.4844584,0.044863,rows=3000
+local_train,shard_5,1761272736.529322,0.014610,trained=yes;n=3000
+retrieve_decrypt,shard_6,1761272736.5439315,0.048663,rows=3000
+local_train,shard_6,1761272736.5925941,0.016761,trained=yes;n=3000
+retrieve_decrypt,shard_7,1761272736.6093552,0.056866,rows=3000
+local_train,shard_7,1761272736.6680384,0.011909,trained=yes;n=3000
+retrieve_decrypt,shard_8,1761272736.679947,0.044656,rows=3000
+local_train,shard_8,1761272736.7246027,0.020244,trained=yes;n=3000
+retrieve_decrypt,shard_9,1761272736.7448463,0.046528,rows=3000
+local_train,shard_9,1761272736.7913747,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_10,1761272736.7913747,0.049978,rows=3000
+local_train,shard_10,1761272736.841353,0.016243,trained=yes;n=3000
+retrieve_decrypt,shard_11,1761272736.8575954,0.050383,rows=3000
+local_train,shard_11,1761272736.9186444,0.016315,trained=yes;n=3000
+retrieve_decrypt,shard_12,1761272736.9349597,0.039952,rows=3000
+local_train,shard_12,1761272736.9749115,0.019726,trained=yes;n=3000
+retrieve_decrypt,shard_13,1761272736.995639,0.034830,rows=3000
+local_train,shard_13,1761272737.0401835,0.001635,trained=yes;n=3000
+retrieve_decrypt,shard_14,1761272737.0418181,0.051194,rows=3000
+local_train,shard_14,1761272737.0930123,0.014919,trained=yes;n=3000
+retrieve_decrypt,shard_15,1761272737.1079314,0.050945,rows=3000
+local_train,shard_15,1761272737.1588767,0.009769,trained=yes;n=3000
+retrieve_decrypt,shard_16,1761272737.1686456,0.050380,rows=3000
+local_train,shard_16,1761272737.2190256,0.005703,trained=yes;n=3000
+retrieve_decrypt,shard_17,1761272737.2247283,0.053416,rows=3000
+local_train,shard_17,1761272737.278144,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_18,1761272737.290498,0.034873,rows=3000
+local_train,shard_18,1761272737.3253706,0.019673,trained=yes;n=3000
+retrieve_decrypt,shard_19,1761272737.345044,0.047097,rows=3000
+local_train,shard_19,1761272737.3921406,0.015183,trained=yes;n=3000
+retrieve_decrypt,shard_20,1761272737.408864,0.034647,rows=3000
+local_train,shard_20,1761272737.4435108,0.019638,trained=yes;n=3000
+retrieve_decrypt,shard_21,1761272737.4631488,0.046037,rows=3000
+local_train,shard_21,1761272737.5091858,0.010161,trained=yes;n=3000
+retrieve_decrypt,shard_22,1761272737.5193467,0.041731,rows=3000
+local_train,shard_22,1761272737.5610778,0.014277,trained=yes;n=3000
+retrieve_decrypt,shard_23,1761272737.5753553,0.050319,rows=3000
+local_train,shard_23,1761272737.6256742,0.016509,trained=yes;n=3000
+retrieve_decrypt,shard_24,1761272737.643181,0.047973,rows=3000
+local_train,shard_24,1761272737.692166,0.002354,trained=yes;n=3000
+retrieve_decrypt,shard_25,1761272737.6945202,0.049277,rows=3000
+local_train,shard_25,1761272737.743797,0.019922,trained=yes;n=3000
+retrieve_decrypt,shard_26,1761272737.7647147,0.044668,rows=3000
+local_train,shard_26,1761272737.8093824,0.016889,trained=yes;n=3000
+retrieve_decrypt,shard_27,1761272737.8272867,0.049122,rows=3000
+local_train,shard_27,1761272737.876409,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_28,1761272737.876409,0.051551,rows=3000
+local_train,shard_28,1761272737.9279604,0.015627,trained=yes;n=3000
+retrieve_decrypt,shard_29,1761272737.9446278,0.037587,rows=3000
+local_train,shard_29,1761272737.9822145,0.013728,trained=yes;n=3000
+retrieve_decrypt,shard_30,1761272737.9959424,0.048977,rows=3000
+local_train,shard_30,1761272738.0449193,0.014780,trained=yes;n=3000
+retrieve_decrypt,shard_31,1761272738.06085,0.047636,rows=3000
+local_train,shard_31,1761272738.1095555,0.002421,trained=yes;n=3000
+retrieve_decrypt,shard_32,1761272738.1196628,0.045770,rows=3000
+local_train,shard_32,1761272738.1654332,0.012647,trained=yes;n=3000
+retrieve_decrypt,shard_33,1761272738.1791012,0.048895,rows=3000
+local_train,shard_33,1761272738.227996,0.015330,trained=yes;n=3000
+retrieve_decrypt,shard_34,1761272738.243326,0.046111,rows=3000
+local_train,shard_34,1761272738.2904356,0.007821,trained=yes;n=3000
+retrieve_decrypt,shard_35,1761272738.2982569,0.061812,rows=3000
+local_train,shard_35,1761272738.3600688,0.021801,trained=yes;n=3000
+retrieve_decrypt,shard_36,1761272738.3818703,0.045171,rows=3000
+local_train,shard_36,1761272738.4270418,0.015152,trained=yes;n=3000
+retrieve_decrypt,shard_37,1761272738.4434023,0.035799,rows=3000
+local_train,shard_37,1761272738.479201,0.014260,trained=yes;n=3000
+retrieve_decrypt,shard_38,1761272738.4934611,0.050353,rows=3000
+local_train,shard_38,1761272738.543814,0.021818,trained=yes;n=3000
+retrieve_decrypt,shard_39,1761272738.5656323,0.045013,rows=3000
+local_train,shard_39,1761272738.6106455,0.017760,trained=yes;n=3000
+retrieve_decrypt,shard_40,1761272738.6294076,0.048136,rows=3000
+local_train,shard_40,1761272738.677544,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_41,1761272738.677544,0.051328,rows=3000
+local_train,shard_41,1761272738.7288723,0.015498,trained=yes;n=3000
+retrieve_decrypt,shard_42,1761272738.7453911,0.037467,rows=3000
+local_train,shard_42,1761272738.782858,0.019444,trained=yes;n=3000
+retrieve_decrypt,shard_43,1761272738.8034036,0.040972,rows=3000
+local_train,shard_43,1761272738.8443754,0.020183,trained=yes;n=3000
+retrieve_decrypt,shard_44,1761272738.8655543,0.045896,rows=3000
+local_train,shard_44,1761272738.9135008,0.006984,trained=yes;n=3000
+retrieve_decrypt,shard_45,1761272738.9204853,0.043795,rows=3000
+local_train,shard_45,1761272738.9642801,0.019482,trained=yes;n=3000
+retrieve_decrypt,shard_46,1761272738.9837623,0.044236,rows=3000
+local_train,shard_46,1761272739.0279984,0.021009,trained=yes;n=3000
+retrieve_decrypt,shard_47,1761272739.0490077,0.046054,rows=3000
+local_train,shard_47,1761272739.0950615,0.003079,trained=yes;n=3000
+retrieve_decrypt,shard_48,1761272739.098141,0.046626,rows=3000
+local_train,shard_48,1761272739.144767,0.018589,trained=yes;n=3000
+retrieve_decrypt,shard_49,1761272739.1633558,0.048505,rows=3000
+local_train,shard_49,1761272739.2132246,0.007403,trained=yes;n=3000
+retrieve_decrypt,shard_50,1761272739.2206278,0.043177,rows=3000
+local_train,shard_50,1761272739.263805,0.019916,trained=yes;n=3000
+retrieve_decrypt,shard_51,1761272739.2837212,0.046502,rows=3000
+local_train,shard_51,1761272739.3302228,0.014853,trained=yes;n=3000
+retrieve_decrypt,shard_52,1761272739.3461485,0.037832,rows=3000
+local_train,shard_52,1761272739.3839803,0.011178,trained=yes;n=3000
+retrieve_decrypt,shard_53,1761272739.3951585,0.050078,rows=3000
+local_train,shard_53,1761272739.4452364,0.016532,trained=yes;n=3000
+retrieve_decrypt,shard_54,1761272739.4617689,0.048723,rows=3000
+local_train,shard_54,1761272739.5114994,0.009640,trained=yes;n=3000
+retrieve_decrypt,shard_55,1761272739.521139,0.040895,rows=3000
+local_train,shard_55,1761272739.5620341,0.015227,trained=yes;n=3000
+retrieve_decrypt,shard_56,1761272739.578277,0.043073,rows=3000
+local_train,shard_56,1761272739.6213498,0.006928,trained=yes;n=3000
+retrieve_decrypt,shard_57,1761272739.6282778,0.049415,rows=3000
+local_train,shard_57,1761272739.6787055,0.010751,trained=yes;n=3000
+retrieve_decrypt,shard_58,1761272739.6894567,0.040767,rows=3000
+local_train,shard_58,1761272739.7302237,0.019423,trained=yes;n=3000
+retrieve_decrypt,shard_59,1761272739.7509387,0.045149,rows=3000
+local_train,shard_59,1761272739.7960873,0.003105,trained=yes;n=3000
+retrieve_decrypt,shard_60,1761272739.799192,0.047915,rows=3000
+local_train,shard_60,1761272739.8471065,0.019683,trained=yes;n=3000
+retrieve_decrypt,shard_61,1761272739.8677893,0.046105,rows=3000
+local_train,shard_61,1761272739.9138947,0.007679,trained=yes;n=3000
+retrieve_decrypt,shard_62,1761272739.921574,0.040628,rows=3000
+local_train,shard_62,1761272739.9622018,0.019110,trained=yes;n=3000
+retrieve_decrypt,shard_63,1761272739.9823108,0.047089,rows=3000
+local_train,shard_63,1761272740.0293999,0.001877,trained=yes;n=3000
+retrieve_decrypt,shard_64,1761272740.0312765,0.048084,rows=3000
+local_train,shard_64,1761272740.0793602,0.016788,trained=yes;n=3000
+retrieve_decrypt,shard_65,1761272740.0972111,0.047542,rows=3000
+local_train,shard_65,1761272740.144753,0.003663,trained=yes;n=3000
+retrieve_decrypt,shard_66,1761272740.148416,0.049248,rows=3000
+local_train,shard_66,1761272740.1976635,0.015194,trained=yes;n=3000
+retrieve_decrypt,shard_67,1761272740.2139149,0.038094,rows=3000
+local_train,shard_67,1761272740.2520092,0.014433,trained=yes;n=3000
+retrieve_decrypt,shard_68,1761272740.2664423,0.046819,rows=3000
+local_train,shard_68,1761272740.3132615,0.008756,trained=yes;n=3000
+retrieve_decrypt,shard_69,1761272740.322018,0.042536,rows=3000
+local_train,shard_69,1761272740.364554,0.016533,trained=yes;n=3000
+retrieve_decrypt,shard_70,1761272740.3810868,0.048784,rows=3000
+local_train,shard_70,1761272740.4298708,0.015280,trained=yes;n=3000
+retrieve_decrypt,shard_71,1761272740.4451506,0.040234,rows=3000
+local_train,shard_71,1761272740.4853847,0.014775,trained=yes;n=3000
+retrieve_decrypt,shard_72,1761272740.5001593,0.045219,rows=3000
+local_train,shard_72,1761272740.546975,0.003214,trained=yes;n=3000
+retrieve_decrypt,shard_73,1761272740.550189,0.053954,rows=3000
+local_train,shard_73,1761272740.6041434,0.010433,trained=yes;n=3000
+retrieve_decrypt,shard_74,1761272740.6145763,0.049016,rows=3000
+local_train,shard_74,1761272740.663592,0.001754,trained=yes;n=3000
+retrieve_decrypt,shard_75,1761272740.665346,0.050286,rows=3000
+local_train,shard_75,1761272740.7156322,0.006933,trained=yes;n=3000
+retrieve_decrypt,shard_76,1761272740.722565,0.041218,rows=3000
+local_train,shard_76,1761272740.7637832,0.021744,trained=yes;n=3000
+retrieve_decrypt,shard_77,1761272740.785527,0.046417,rows=3000
+local_train,shard_77,1761272740.831944,0.006593,trained=yes;n=3000
+retrieve_decrypt,shard_78,1761272740.8385365,0.042104,rows=3000
+local_train,shard_78,1761272740.8806405,0.018906,trained=yes;n=3000
+retrieve_decrypt,shard_79,1761272740.9005451,0.045431,rows=3000
+local_train,shard_79,1761272740.946987,0.000583,trained=yes;n=3000
+retrieve_decrypt,shard_80,1761272740.94757,0.051743,rows=3000
+local_train,shard_80,1761272740.9993129,0.019296,trained=yes;n=3000
+retrieve_decrypt,shard_81,1761272741.018609,0.044143,rows=3000
+local_train,shard_81,1761272741.0627522,0.001722,trained=yes;n=3000
+retrieve_decrypt,shard_82,1761272741.0644739,0.049985,rows=3000
+local_train,shard_82,1761272741.114459,0.009123,trained=yes;n=3000
+retrieve_decrypt,shard_83,1761272741.123582,0.042351,rows=3000
+local_train,shard_83,1761272741.1659334,0.017291,trained=yes;n=3000
+retrieve_decrypt,shard_84,1761272741.183224,0.047519,rows=3000
+local_train,shard_84,1761272741.2307427,0.002380,trained=yes;n=3000
+retrieve_decrypt,shard_85,1761272741.2331228,0.050823,rows=3000
+local_train,shard_85,1761272741.2839463,0.002156,trained=yes;n=3000
+retrieve_decrypt,shard_86,1761272741.2861025,0.046681,rows=3000
+local_train,shard_86,1761272741.3327837,0.014786,trained=yes;n=3000
+retrieve_decrypt,shard_87,1761272741.34757,0.050879,rows=3000
+local_train,shard_87,1761272741.3984494,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_88,1761272741.3984494,0.051030,rows=3000
+local_train,shard_88,1761272741.4494796,0.002865,trained=yes;n=3000
+retrieve_decrypt,shard_89,1761272741.4523447,0.047455,rows=3000
+local_train,shard_89,1761272741.4997997,0.016419,trained=yes;n=3000
+retrieve_decrypt,shard_90,1761272741.516219,0.037671,rows=3000
+local_train,shard_90,1761272741.55389,0.012738,trained=yes;n=3000
+retrieve_decrypt,shard_91,1761272741.566628,0.048207,rows=3000
+local_train,shard_91,1761272741.615439,0.007685,trained=yes;n=3000
+retrieve_decrypt,shard_92,1761272741.6231236,0.043453,rows=3000
+local_train,shard_92,1761272741.666577,0.009053,trained=yes;n=3000
+retrieve_decrypt,shard_93,1761272741.6756299,0.047754,rows=3000
+local_train,shard_93,1761272741.7233841,0.010509,trained=yes;n=3000
+retrieve_decrypt,shard_94,1761272741.7348912,0.045658,rows=3000
+local_train,shard_94,1761272741.7822573,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_95,1761272741.7822573,0.051838,rows=3000
+local_train,shard_95,1761272741.8340955,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_96,1761272741.8340955,0.048609,rows=3000
+local_train,shard_96,1761272741.8827047,0.015644,trained=yes;n=3000
+retrieve_decrypt,shard_97,1761272741.8983486,0.051834,rows=3000
+local_train,shard_97,1761272741.9501824,0.008727,trained=yes;n=3000
+retrieve_decrypt,shard_98,1761272741.9589093,0.041772,rows=3000
+local_train,shard_98,1761272742.0006812,0.014525,trained=yes;n=3000
+retrieve_decrypt,shard_99,1761272742.015206,0.050648,rows=3000
+local_train,shard_99,1761272742.0658543,0.002143,trained=yes;n=3000
+retrieve_decrypt,shard_100,1761272742.0679972,0.047785,rows=3000
+local_train,shard_100,1761272742.1241186,0.009227,trained=yes;n=3000
+retrieve_decrypt,shard_101,1761272742.1333451,0.049379,rows=3000
+local_train,shard_101,1761272742.1827242,0.007711,trained=yes;n=3000
+retrieve_decrypt,shard_102,1761272742.1904352,0.043434,rows=3000
+local_train,shard_102,1761272742.2338688,0.015305,trained=yes;n=3000
+retrieve_decrypt,shard_103,1761272742.2491736,0.039355,rows=3000
+local_train,shard_103,1761272742.288529,0.014603,trained=yes;n=3000
+retrieve_decrypt,shard_104,1761272742.3031318,0.047599,rows=3000
+local_train,shard_104,1761272742.350731,0.014923,trained=yes;n=3000
+retrieve_decrypt,shard_105,1761272742.3661652,0.039117,rows=3000
+local_train,shard_105,1761272742.4052825,0.014593,trained=yes;n=3000
+retrieve_decrypt,shard_106,1761272742.423085,0.043384,rows=3000
+local_train,shard_106,1761272742.4664693,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_107,1761272742.4664693,0.051281,rows=3000
+local_train,shard_107,1761272742.5177507,0.007318,trained=yes;n=3000
+retrieve_decrypt,shard_108,1761272742.5250688,0.043147,rows=3000
+local_train,shard_108,1761272742.5682154,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_109,1761272742.5682154,0.057616,rows=3000
+local_train,shard_109,1761272742.625831,0.009979,trained=yes;n=3000
+retrieve_decrypt,shard_110,1761272742.63581,0.050679,rows=3000
+local_train,shard_110,1761272742.6905437,0.009621,trained=yes;n=3000
+retrieve_decrypt,shard_111,1761272742.7001646,0.038573,rows=3000
+local_train,shard_111,1761272742.7387373,0.016791,trained=yes;n=3000
+retrieve_decrypt,shard_112,1761272742.7555287,0.045086,rows=3000
+local_train,shard_112,1761272742.8026977,0.001486,trained=yes;n=3000
+retrieve_decrypt,shard_113,1761272742.8041835,0.046035,rows=3000
+local_train,shard_113,1761272742.8502185,0.017655,trained=yes;n=3000
+retrieve_decrypt,shard_114,1761272742.8688762,0.046670,rows=3000
+local_train,shard_114,1761272742.9165616,0.000607,trained=yes;n=3000
+retrieve_decrypt,shard_115,1761272742.9264624,0.040450,rows=3000
+local_train,shard_115,1761272742.9669127,0.015288,trained=yes;n=3000
+retrieve_decrypt,shard_116,1761272742.983372,0.043227,rows=3000
+local_train,shard_116,1761272743.032369,0.001013,trained=yes;n=3000
+retrieve_decrypt,shard_117,1761272743.0333815,0.050586,rows=3000
+local_train,shard_117,1761272743.0839672,0.008112,trained=yes;n=3000
+retrieve_decrypt,shard_118,1761272743.0920794,0.041528,rows=3000
+local_train,shard_118,1761272743.1336076,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_119,1761272743.1336076,0.057186,rows=3000
+local_train,shard_119,1761272743.1907933,0.011915,trained=yes;n=3000
+retrieve_decrypt,shard_120,1761272743.203707,0.035810,rows=3000
+local_train,shard_120,1761272743.2493536,0.007451,trained=yes;n=3000
+retrieve_decrypt,shard_121,1761272743.256805,0.044157,rows=3000
+local_train,shard_121,1761272743.3009622,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_122,1761272743.3009622,0.049922,rows=3000
+local_train,shard_122,1761272743.3508844,0.021642,trained=yes;n=3000
+retrieve_decrypt,shard_123,1761272743.3725264,0.046562,rows=3000
+local_train,shard_123,1761272743.4190884,0.013687,trained=yes;n=3000
+retrieve_decrypt,shard_124,1761272743.4339051,0.041889,rows=3000
+local_train,shard_124,1761272743.4830585,0.005597,trained=yes;n=3000
+retrieve_decrypt,shard_125,1761272743.4886558,0.045919,rows=3000
+local_train,shard_125,1761272743.5345745,0.002522,trained=yes;n=3000
+retrieve_decrypt,shard_126,1761272743.537096,0.048719,rows=3000
+local_train,shard_126,1761272743.5858152,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_127,1761272743.599776,0.040369,rows=3000
+local_train,shard_127,1761272743.6401448,0.011510,trained=yes;n=3000
+retrieve_decrypt,shard_128,1761272743.6527252,0.038593,rows=3000
+local_train,shard_128,1761272743.6913183,0.010123,trained=yes;n=3000
+retrieve_decrypt,shard_129,1761272743.701441,0.051497,rows=3000
+local_train,shard_129,1761272743.754598,0.008974,trained=yes;n=3000
+retrieve_decrypt,shard_130,1761272743.7635717,0.039967,rows=3000
+local_train,shard_130,1761272743.8035388,0.017046,trained=yes;n=3000
+retrieve_decrypt,shard_131,1761272743.820585,0.062989,rows=3000
+local_train,shard_131,1761272743.8835745,0.001742,trained=yes;n=3000
+retrieve_decrypt,shard_132,1761272743.8853166,0.049759,rows=3000
+local_train,shard_132,1761272743.9350758,0.003052,trained=yes;n=3000
+retrieve_decrypt,shard_133,1761272743.9381282,0.047109,rows=3000
+local_train,shard_133,1761272743.9852374,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_134,1761272744.0003924,0.040242,rows=3000
+local_train,shard_134,1761272744.0406349,0.014487,trained=yes;n=3000
+retrieve_decrypt,shard_135,1761272744.0561209,0.034578,rows=3000
+local_train,shard_135,1761272744.1006517,0.005599,trained=yes;n=3000
+retrieve_decrypt,shard_136,1761272744.1088727,0.044759,rows=3000
+local_train,shard_136,1761272744.1536314,0.002433,trained=yes;n=3000
+retrieve_decrypt,shard_137,1761272744.1560647,0.046203,rows=3000
+local_train,shard_137,1761272744.202268,0.022028,trained=yes;n=3000
+retrieve_decrypt,shard_138,1761272744.224296,0.046059,rows=3000
+local_train,shard_138,1761272744.2703555,0.005130,trained=yes;n=3000
+retrieve_decrypt,shard_139,1761272744.2754853,0.052074,rows=3000
+local_train,shard_139,1761272744.3275595,0.011166,trained=yes;n=3000
+retrieve_decrypt,shard_140,1761272744.3387253,0.045609,rows=3000
+local_train,shard_140,1761272744.3853414,0.000690,trained=yes;n=3000
+retrieve_decrypt,shard_141,1761272744.3860319,0.049906,rows=3000
+local_train,shard_141,1761272744.4359384,0.000000,trained=yes;n=3000
+retrieve_decrypt,shard_142,1761272744.451089,0.040805,rows=3000
+local_train,shard_142,1761272744.4918935,0.002144,trained=yes;n=3000
+retrieve_decrypt,shard_143,1761272744.4940379,0.041884,rows=3000
+local_train,shard_143,1761272744.5359218,0.018762,trained=yes;n=3000
+retrieve_decrypt,shard_144,1761272744.554684,0.036947,rows=3000
+local_train,shard_144,1761272744.6013598,0.001825,trained=yes;n=3000
+retrieve_decrypt,shard_145,1761272744.6031845,0.050915,rows=3000
+local_train,shard_145,1761272744.6541,0.002114,trained=yes;n=3000
+retrieve_decrypt,shard_146,1761272744.656214,0.049143,rows=1307
+local_train,shard_146,1761272744.7053573,0.011700,trained=yes;n=1307
+fedavg,-,1761272744.718128,0.000000,has_update=True
